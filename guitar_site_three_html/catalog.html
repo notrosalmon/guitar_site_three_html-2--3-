@@ -1,0 +1,2138 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ギター図鑑 | 初めてのギターガイド</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-app">
+      <section id="zukan" class="screen zukan-screen">
+        <div class="css-page-header">
+          <a class="css-home-link" href="index.html">← ホームへ</a>
+          <div class="css-title-blob"></div>
+          <div class="css-page-title">ギター図鑑</div>
+          <label class="css-filter-button" for="filter-open">絞り込み</label>
+        </div>
+        <div class="zukan-decoration" aria-hidden="true">
+          <span style="left: 12px; top: 160px; --r: -15deg">♪</span>
+          <span style="left: 6px; top: 260px; --r: 10deg">♪</span>
+          <span style="left: 28px; top: 430px; --r: -10deg">★</span>
+          <span style="left: 388px; top: 180px; --r: 15deg">♪</span>
+          <span style="left: 398px; top: 300px; --r: -8deg">♪</span>
+          <span style="left: 370px; top: 450px; --r: 12deg">★</span>
+          <span style="left: 60px; top: 110px; --r: -12deg">★</span>
+          <span style="left: 250px; top: 105px; --r: 9deg">♪</span>
+          <span style="left: 70px; top: 620px; --r: 10deg">★</span>
+          <span style="left: 300px; top: 640px; --r: -12deg">★</span>
+        </div>
+        <form class="zukan-filter-form">
+          <input type="checkbox" id="filter-open" />
+          <input
+            class="zukan-input"
+            type="radio"
+            name="filter-type"
+            id="filter-type-all"
+            checked
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-type"
+            id="filter-type-strat"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-type"
+            id="filter-type-tele"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-type"
+            id="filter-type-lp"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-type"
+            id="filter-type-sg"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-type"
+            id="filter-type-jm"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-type"
+            id="filter-type-semiac"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-all"
+            checked
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-sunburst"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-butterscotch"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-cherryred"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-cherry"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-black"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-natural"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-red"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-tvyellow"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-blue"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-color"
+            id="filter-color-white"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-pickup"
+            id="filter-pickup-all"
+            checked
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-pickup"
+            id="filter-pickup-single"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-pickup"
+            id="filter-pickup-hum"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-pickup"
+            id="filter-pickup-p90"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-price"
+            id="filter-price-all"
+            checked
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-price"
+            id="filter-price-p0"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-price"
+            id="filter-price-p3_10"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-price"
+            id="filter-price-p5_10"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-price"
+            id="filter-price-p10_20"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-price"
+            id="filter-price-p20_30"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-price"
+            id="filter-price-p30"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-weight"
+            id="filter-weight-all"
+            checked
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-weight"
+            id="filter-weight-light"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-weight"
+            id="filter-weight-standard"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-weight"
+            id="filter-weight-heavy"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-all"
+            checked
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-fender"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-gibson"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-squier"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-epiphone"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-yamaha"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-bacchus"
+          /><input
+            class="zukan-input"
+            type="radio"
+            name="filter-brand"
+            id="filter-brand-prs"
+          />
+          <p class="no-js-note">
+            この図鑑はJavaScriptなしで絞り込みます。条件を組み合わせる場合もCSSだけでカードを表示・非表示にしています。
+          </p>
+          <div class="filter-panel">
+            <div class="filter-grid">
+              <div class="filter-group">
+                <p class="filter-group-title">タイプ</p>
+                <div class="filter-options">
+                  <label for="filter-type-all">すべて</label
+                  ><label for="filter-type-strat">ストラト</label
+                  ><label for="filter-type-tele">テレキャス</label
+                  ><label for="filter-type-lp">レスポール</label
+                  ><label for="filter-type-sg">SG</label
+                  ><label for="filter-type-jm">ジャズマスター</label
+                  ><label for="filter-type-semiac">セミアコ</label>
+                </div>
+              </div>
+              <div class="filter-group">
+                <p class="filter-group-title">カラー</p>
+                <div class="filter-options">
+                  <label for="filter-color-all">すべて</label
+                  ><label for="filter-color-sunburst">サンバースト</label
+                  ><label for="filter-color-butterscotch">バタースコッチ</label
+                  ><label for="filter-color-cherryred">チェリーレッド</label
+                  ><label for="filter-color-cherry">チェリー</label
+                  ><label for="filter-color-black">ブラック</label
+                  ><label for="filter-color-natural">ナチュラル</label
+                  ><label for="filter-color-red">レッド</label
+                  ><label for="filter-color-tvyellow">TV イエロー</label
+                  ><label for="filter-color-blue">ブルー</label
+                  ><label for="filter-color-white">ホワイト</label>
+                </div>
+              </div>
+              <div class="filter-group">
+                <p class="filter-group-title">ピックアップ</p>
+                <div class="filter-options">
+                  <label for="filter-pickup-all">すべて</label
+                  ><label for="filter-pickup-single">シングルコイル</label
+                  ><label for="filter-pickup-hum">ハムバッカー</label
+                  ><label for="filter-pickup-p90">P90</label>
+                </div>
+              </div>
+              <div class="filter-group">
+                <p class="filter-group-title">価格</p>
+                <div class="filter-options">
+                  <label for="filter-price-all">すべて</label
+                  ><label for="filter-price-p0">〜3万円</label
+                  ><label for="filter-price-p3_10">3〜10万円</label
+                  ><label for="filter-price-p5_10">5〜10万円</label
+                  ><label for="filter-price-p10_20">10〜20万円</label
+                  ><label for="filter-price-p20_30">20〜30万円</label
+                  ><label for="filter-price-p30">30万円〜</label>
+                </div>
+              </div>
+              <div class="filter-group">
+                <p class="filter-group-title">重さ</p>
+                <div class="filter-options">
+                  <label for="filter-weight-all">すべて</label
+                  ><label for="filter-weight-light">軽め（〜3.0kg）</label
+                  ><label for="filter-weight-standard">標準（3.0〜3.8kg）</label
+                  ><label for="filter-weight-heavy">重め（3.8kg〜）</label>
+                </div>
+              </div>
+              <div class="filter-group">
+                <p class="filter-group-title">ブランド</p>
+                <div class="filter-options">
+                  <label for="filter-brand-all">すべて</label
+                  ><label for="filter-brand-fender">Fender</label
+                  ><label for="filter-brand-gibson">Gibson</label
+                  ><label for="filter-brand-squier">Squier</label
+                  ><label for="filter-brand-epiphone">Epiphone</label
+                  ><label for="filter-brand-yamaha">Yamaha</label
+                  ><label for="filter-brand-bacchus">Bacchus</label
+                  ><label for="filter-brand-prs">PRS</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="zukan-list">
+            <article
+              class="guitar-card filter-type-strat filter-color-sunburst filter-pickup-single filter-price-p5_10 filter-weight-standard filter-brand-fender"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68804613_0.jpg"
+                  alt="Fender ストラトキャスター"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Fender</div>
+                <h3 class="guitar-name">ストラトキャスター</h3>
+                <div class="tag-list">
+                  <span class="tag">ストラト</span
+                  ><span class="tag">サンバースト</span
+                  ><span class="tag">シングルコイル</span
+                  ><span class="tag">5〜10万円</span
+                  ><span class="tag">約3.5kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                クリーンで明るいサウンドが特徴の万能ギター。ロック・ポップ・ブルースなどあらゆるジャンルに対応。軽量で弾きやすく初心者にも人気。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>ストラト</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>サンバースト</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>シングルコイル</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>5〜10万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.5kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  ><span class="swatch"
+                    ><i style="background: #1a4a8a"></i>ブルー</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />最も温かくまろやかな音。クリーンやジャズ的なサウンドに最適。コードをゆったり弾くときに活躍。
+                </div>
+                <div class="pickup-block">
+                  <strong>センター / シングルコイル</strong
+                  ><br />フロントとリアの中間的なサウンド。フロントと組み合わせると「鼻づまり」感のある独特のハーフトーンが得られる。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / シングルコイル</strong
+                  ><br />最も明るくシャープな音。カッティングやリードプレイに最適。ロックやファンクで最もよく使われるポジション。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-tele filter-color-butterscotch filter-pickup-single filter-price-p5_10 filter-weight-standard filter-brand-fender"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68804614_0.jpg"
+                  alt="Fender テレキャスター"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Fender</div>
+                <h3 class="guitar-name">テレキャスター</h3>
+                <div class="tag-list">
+                  <span class="tag">テレキャス</span
+                  ><span class="tag">バタースコッチ</span
+                  ><span class="tag">シングルコイル</span
+                  ><span class="tag">5〜10万円</span
+                  ><span class="tag">約3.2kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                歯切れの良いクリアなサウンドが魅力。カントリー・ファンク・ロックで活躍するシンプルで頑丈な定番モデル。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>テレキャス</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>バタースコッチ</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>シングルコイル</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>5〜10万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.2kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #d4a843"></i>バタースコッチ</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #c8a870"></i>ナチュラル</span
+                  ><span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />丸みのある温かいサウンド。ジャズやブルースのリードに向く。テレキャス独特のネックPUの音はクセになる心地よさ。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / シングルコイル</strong
+                  ><br />テレキャスを象徴するキンキンとした明るい音。ブラスサドル＋金属プレートで音が締まり、カントリーやロックンロールに最高。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-lp filter-color-sunburst filter-pickup-hum filter-price-p30 filter-weight-heavy filter-brand-gibson"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/2a4c415238f0b0fa149af5a40d2340d3ec4a39f8.png"
+                  alt="Gibson レスポール スタンダード"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Gibson</div>
+                <h3 class="guitar-name">レスポール スタンダード</h3>
+                <div class="tag-list">
+                  <span class="tag">レスポール</span
+                  ><span class="tag">サンバースト</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">30万円〜</span
+                  ><span class="tag">約4.5kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                重厚でクリーミーなサウンドはロック・ブルースの象徴。圧倒的な存在感と高級感のある木目が魅力の名器。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>レスポール</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>サンバースト</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>30万円〜</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約4.5kg / 重め（3.8kg〜）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #7b1010"></i>チェリー</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #d4b020"></i>TV イエロー</span
+                  ><span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />甘くクリーミーなサウンド。ブルースのソロやジャズ的なフレーズに最適。音の太さと温かさはレスポールならでは。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />パワフルで厚みのある歪みサウンド。ロックのリードに最適で、サステインが豊か。ハードロックの定番ポジション。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-sg filter-color-cherryred filter-pickup-hum filter-price-p20_30 filter-weight-light filter-brand-gibson"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68804615_0.jpg"
+                  alt="Gibson SG スタンダード"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Gibson</div>
+                <h3 class="guitar-name">SG スタンダード</h3>
+                <div class="tag-list">
+                  <span class="tag">SG</span
+                  ><span class="tag">チェリーレッド</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">20〜30万円</span
+                  ><span class="tag">約2.8kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                薄く軽いボディながら攻撃的なサウンドが特徴。ハードロック・メタルに最適な、アクセスしやすいハイフレット。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>SG</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>チェリーレッド</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>20〜30万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約2.8kg / 軽め（〜3.0kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />レスポールより軽めで少しシャープなクリーントーン。ボディが薄い分、レスポールより明るめのキャラクター。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />攻撃的でエッジの立った歪みサウンド。ハードロック・メタルのリフに最強。アンガス・ヤングはこのポジション一択。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-jm filter-color-sunburst filter-pickup-single filter-price-p10_20 filter-weight-heavy filter-brand-fender"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68804616_0.jpg"
+                  alt="Fender ジャズマスター"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Fender</div>
+                <h3 class="guitar-name">ジャズマスター</h3>
+                <div class="tag-list">
+                  <span class="tag">ジャズマスター</span
+                  ><span class="tag">サンバースト</span
+                  ><span class="tag">シングルコイル</span
+                  ><span class="tag">10〜20万円</span
+                  ><span class="tag">約3.8kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                個性的なルックスと独特のサウンドがインディー・オルタナ系で人気。フローティングトレモロが唯一無二の表現を可能にする。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>ジャズマスター</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>サンバースト</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>シングルコイル</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>10〜20万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.8kg / 重め（3.8kg〜）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #1a4a8a"></i>ブルー</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />ジャズマスター専用の広いPU。こもりすぎず独特のジャリっとした音。リズムサーキットと組み合わせると深みのあるサウンドに。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / シングルコイル</strong
+                  ><br />オルタナ・インディーロックの象徴的な音。少しザラついた個性的なサウンドで、ノイズさえもサウンドの一部になる独特の魅力がある。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-semiac filter-color-cherryred filter-pickup-hum filter-price-p30 filter-weight-standard filter-brand-gibson"
+            >
+              <div class="guitar-thumb">
+                <img src="assets/S__68804617_0.jpg" alt="Gibson ES-335" />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Gibson</div>
+                <h3 class="guitar-name">ES-335</h3>
+                <div class="tag-list">
+                  <span class="tag">セミアコ</span
+                  ><span class="tag">チェリーレッド</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">30万円〜</span
+                  ><span class="tag">約3.7kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                セミホロウ構造による温かく豊かなサウンド。ジャズ・ブルースからロックまで対応する大人の余裕を感じさせるエレガントな一本。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>セミアコ</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>チェリーレッド</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>30万円〜</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.7kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  ><span class="swatch"
+                    ><i style="background: #c8a870"></i>ナチュラル</span
+                  ><span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />セミホロウの箱鳴り感が加わり、非常に温かくエアリーなサウンド。ジャズのコードワークやメロディに最高のキャラクター。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />ソリッドボディのハムより少し軽やかで、ブルースのソロに絶妙にマッチ。B.B.キングが愛用したのもこのポジション。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-strat filter-color-red filter-pickup-single filter-price-p0 filter-weight-standard filter-brand-squier"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68804613_0.jpg"
+                  alt="Squier ストラトキャスター"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Squier</div>
+                <h3 class="guitar-name">ストラトキャスター</h3>
+                <div class="tag-list">
+                  <span class="tag">ストラト</span
+                  ><span class="tag">レッド</span
+                  ><span class="tag">シングルコイル</span
+                  ><span class="tag">〜3万円</span
+                  ><span class="tag">約3.4kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                Fender公式のエントリーブランド。ストラトの操作感を低価格で体験できる初心者の定番。コスパ抜群。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>ストラト</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>レッド</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>シングルコイル</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>〜3万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.4kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  ><span class="swatch"
+                    ><i style="background: #1a4a8a"></i>ブルー</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />温かくまろやかなサウンド。本家より少し素朴な音だが、クリーンプレイには十分使える。
+                </div>
+                <div class="pickup-block">
+                  <strong>センター / シングルコイル</strong
+                  ><br />フロントとリアの中間のバランスの取れた音。フロントとのハーフトーンが気持ち良い。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / シングルコイル</strong
+                  ><br />明るくシャープなサウンド。本家ほど上品ではないが、ロックやカッティングには十分な音。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-tele filter-color-natural filter-pickup-single filter-price-p0 filter-weight-standard filter-brand-squier"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68804614_0.jpg"
+                  alt="Squier テレキャスター"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Squier</div>
+                <h3 class="guitar-name">テレキャスター</h3>
+                <div class="tag-list">
+                  <span class="tag">テレキャス</span
+                  ><span class="tag">ナチュラル</span
+                  ><span class="tag">シングルコイル</span
+                  ><span class="tag">〜3万円</span
+                  ><span class="tag">約3.1kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                Fender公式のエントリーブランドによるテレキャス。シンプルな構造で扱いやすく、入門用として最適。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>テレキャス</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ナチュラル</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>シングルコイル</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>〜3万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.1kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #d4a843"></i>バタースコッチ</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #c8a870"></i>ナチュラル</span
+                  ><span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />丸みのある入門向けサウンド。テレキャスらしいネック側の温かみをしっかり体験できる。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / シングルコイル</strong
+                  ><br />テレキャスらしいキラキラした音。本家ほどの鋭さはないが、初心者が音を掴むには最適。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-lp filter-color-black filter-pickup-hum filter-price-p3_10 filter-weight-heavy filter-brand-epiphone"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/2a4c415238f0b0fa149af5a40d2340d3ec4a39f8.png"
+                  alt="Epiphone レスポール スタンダード"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Epiphone</div>
+                <h3 class="guitar-name">レスポール スタンダード</h3>
+                <div class="tag-list">
+                  <span class="tag">レスポール</span
+                  ><span class="tag">ブラック</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">3〜10万円</span
+                  ><span class="tag">約4.2kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                Gibson公式傘下のEpiphoneによるレスポール。本家に近い見た目とサウンドを手頃な価格で実現。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>レスポール</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ブラック</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>3〜10万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約4.2kg / 重め（3.8kg〜）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #7b1010"></i>チェリー</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #d4b020"></i>TV イエロー</span
+                  ><span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />本家より少し軽めだが、甘くクリーミーなレスポールらしい音を体験できる。コスパ優秀。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />しっかりとしたパワー感のある歪みサウンド。本家Gibsonと比べるとやや素直な音だが、ロックには十分。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-sg filter-color-black filter-pickup-hum filter-price-p3_10 filter-weight-light filter-brand-epiphone"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68804615_0.jpg"
+                  alt="Epiphone SG スタンダード"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Epiphone</div>
+                <h3 class="guitar-name">SG スタンダード</h3>
+                <div class="tag-list">
+                  <span class="tag">SG</span><span class="tag">ブラック</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">3〜10万円</span
+                  ><span class="tag">約2.9kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                Epiphoneが手がける入門向けSG。軽量で弾きやすく、ハードロックを目指す初心者に最適なモデル。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>SG</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ブラック</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>3〜10万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約2.9kg / 軽め（〜3.0kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />軽量ボディの特性が出た、やや軽めでシャープなハムサウンド。クリーンでも使いやすい。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />攻撃的でエッジの立った歪み。本家SGに迫るロックなサウンドが手頃な価格で手に入る。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-lp filter-color-tvyellow filter-pickup-p90 filter-price-p20_30 filter-weight-heavy filter-brand-gibson"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812812_0.jpg"
+                  alt="Gibson レスポール スペシャル"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Gibson</div>
+                <h3 class="guitar-name">レスポール スペシャル</h3>
+                <div class="tag-list">
+                  <span class="tag">レスポール</span
+                  ><span class="tag">TV イエロー</span
+                  ><span class="tag">P90</span
+                  ><span class="tag">20〜30万円</span
+                  ><span class="tag">約3.8kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                P90ピックアップを2基搭載したシンプルかつ強力なモデル。フラットトップのマホガニーボディが独特の温かみと攻撃性を両立。ジャンルを選ばない万能派。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>レスポール</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>TV イエロー</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>P90</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>20〜30万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.8kg / 重め（3.8kg〜）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #7b1010"></i>チェリー</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #d4b020"></i>TV イエロー</span
+                  ><span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / P90</strong
+                  ><br />ハムバッカーより明るく、シングルよりパワフルな中低域。ブルースのソロや太いクリーントーンに最高。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / P90</strong
+                  ><br />シングルコイルのような鋭さとハムバッカーのパワーを合わせ持つ。ロックンロールやパンクのリフに抜群のキャラクター。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-lp filter-color-black filter-pickup-hum filter-price-p30 filter-weight-heavy filter-brand-gibson"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812813_0.jpg"
+                  alt="Gibson レスポール カスタム"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Gibson</div>
+                <h3 class="guitar-name">レスポール カスタム</h3>
+                <div class="tag-list">
+                  <span class="tag">レスポール</span
+                  ><span class="tag">ブラック</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">30万円〜</span
+                  ><span class="tag">約4.8kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                「ブラックビューティー」の愛称で知られるGibson最高峰モデル。3基のハムバッカーと全面バインディングが放つ圧倒的な存在感。スラッシュやジミー・ペイジも愛用。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>レスポール</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ブラック</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>30万円〜</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約4.8kg / 重め（3.8kg〜）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #7b1010"></i>チェリー</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #d4b020"></i>TV イエロー</span
+                  ><span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />最もふくよかで甘い音。ジャズ的なコードワークやメロディアスなリードに最適。3PUならではのまろやかさ。
+                </div>
+                <div class="pickup-block">
+                  <strong>センター / ハムバッカー</strong
+                  ><br />フロントとリアの中間のバランスの良い音。レスポールカスタム独自のポジションで、ミドルレンジの抜けが心地よい。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />力強くパワフルな歪みサウンド。ハードロックのリフからソロまで幅広くカバーできる最強のリアPU。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-lp filter-color-tvyellow filter-pickup-p90 filter-price-p3_10 filter-weight-standard filter-brand-epiphone"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812812_0.jpg"
+                  alt="Epiphone レスポール スペシャル"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Epiphone</div>
+                <h3 class="guitar-name">レスポール スペシャル</h3>
+                <div class="tag-list">
+                  <span class="tag">レスポール</span
+                  ><span class="tag">TV イエロー</span
+                  ><span class="tag">P90</span><span class="tag">3〜10万円</span
+                  ><span class="tag">約3.7kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                Gibson LP
+                Specialをベースにしたエントリーモデル。P90タイプPUのザラっとした独特のトーンを手頃な価格で体験できる。ビジュアルのインパクトも大きい。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>レスポール</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>TV イエロー</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>P90</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>3〜10万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.7kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #7b1010"></i>チェリー</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #d4b020"></i>TV イエロー</span
+                  ><span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / P90</strong
+                  ><br />本家ほどの迫力はないが、P90らしい独特の中域感をしっかり体験できる。ブルースやロックに向く。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / P90</strong
+                  ><br />歯切れのよいアタック感がある。エントリークラスながらP90の個性的なサウンドキャラクターをよく表現している。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-strat filter-color-sunburst filter-pickup-hum filter-price-p3_10 filter-weight-standard filter-brand-yamaha"
+            >
+              <div class="guitar-thumb">
+                <img src="assets/S__68812814.jpg" alt="Yamaha Pacifica 112V" />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Yamaha</div>
+                <h3 class="guitar-name">Pacifica 112V</h3>
+                <div class="tag-list">
+                  <span class="tag">ストラト</span
+                  ><span class="tag">サンバースト</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">3〜10万円</span
+                  ><span class="tag">約3.4kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                世界中の音楽教室でも採用されるヤマハの大ヒット入門モデル。SSH配列で幅広いサウンドに対応。ピッチ精度と演奏性の高さはこの価格帯で随一のコスパを誇る。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>ストラト</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>サンバースト</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>3〜10万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.4kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  ><span class="swatch"
+                    ><i style="background: #1a4a8a"></i>ブルー</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />クリーンで明るいサウンド。フロントとセンターのハーフトーンも気持ちよく、初心者でも扱いやすい音。
+                </div>
+                <div class="pickup-block">
+                  <strong>センター / シングルコイル</strong
+                  ><br />バランスの取れた中間的なサウンド。ハーフトーンでジャリっとした独特の音色が楽しめる。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />シングルより太くパワフルな音。歪みとの相性が良く、ロックからポップまで幅広く使える。SSH配列の最大の特徴。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-lp filter-color-black filter-pickup-p90 filter-price-p10_20 filter-weight-standard filter-brand-yamaha"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812804_0.jpg"
+                  alt="Yamaha Revstar Standard RSS02T"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Yamaha</div>
+                <h3 class="guitar-name">Revstar Standard RSS02T</h3>
+                <div class="tag-list">
+                  <span class="tag">レスポール</span
+                  ><span class="tag">ブラック</span><span class="tag">P90</span
+                  ><span class="tag">10〜20万円</span
+                  ><span class="tag">約3.6kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                ヤマハが独自のコンセプトで開発したオリジナルデザインのギター。2基のP90タイプPUが生み出す個性的なトーンはインディー・オルタナ・ロックに最適。日本発のデザインが世界で評価される。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>レスポール</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ブラック</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>P90</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>10〜20万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.6kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #7b1010"></i>チェリー</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #d4b020"></i>TV イエロー</span
+                  ><span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / P90</strong
+                  ><br />Revstar専用チューニングのP90。温かみのある中域が特徴で、ヤマハらしい上品な鳴りが魅力。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / P90</strong
+                  ><br />歯切れよくシャープなアタック感。ドライブさせてもサウンドが破綻しない安定感はヤマハの設計力の賜物。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-sg filter-color-black filter-pickup-hum filter-price-p30 filter-weight-standard filter-brand-yamaha"
+            >
+              <div class="guitar-thumb">
+                <img src="assets/S__68812806_0.jpg" alt="Yamaha SG1820" />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Yamaha</div>
+                <h3 class="guitar-name">SG1820</h3>
+                <div class="tag-list">
+                  <span class="tag">SG</span><span class="tag">ブラック</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">30万円〜</span
+                  ><span class="tag">約3.5kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                ヤマハが誇る国産フラッグシップモデル。1970年代から続く伝統的なSGシェイプに、ヤマハ独自の高精度なクラフトマンシップを融合。カルロス・サンタナも長年愛用した名器。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>SG</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ブラック</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>30万円〜</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.5kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />深みのある温かいサウンド。ヤマハ製PUならではの繊細なレスポンスが心地よく、クリーンからオーバードライブまで美しい音色。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />タイトでパワフルな歪み。国産ならではの精密なコントロールが可能で、ブルース・フュージョン・ロックで幅広く活躍。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-strat filter-color-sunburst filter-pickup-single filter-price-p10_20 filter-weight-standard filter-brand-bacchus"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812808_0.jpg"
+                  alt="Bacchus Craft Series BST-650R"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Bacchus</div>
+                <h3 class="guitar-name">Craft Series BST-650R</h3>
+                <div class="tag-list">
+                  <span class="tag">ストラト</span
+                  ><span class="tag">サンバースト</span
+                  ><span class="tag">シングルコイル</span
+                  ><span class="tag">10〜20万円</span
+                  ><span class="tag">約3.5kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                日本の職人が手がけるバッカスのクラフトシリーズ。国産ならではの丁寧な作りと高いプレイアビリティを、比較的リーズナブルな価格で実現。ヴィンテージライクなサウンドが魅力。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>ストラト</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>サンバースト</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>シングルコイル</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>10〜20万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.5kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  ><span class="swatch"
+                    ><i style="background: #1a4a8a"></i>ブルー</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />国産クラフトPUならではの品のある温かいトーン。ヴィンテージ感のある柔らかいサウンドでブルースやジャズにも。
+                </div>
+                <div class="pickup-block">
+                  <strong>センター / シングルコイル</strong
+                  ><br />バランスが良くハーフトーンも美しい。日本製らしい丁寧な音作りが感じられる。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / シングルコイル</strong
+                  ><br />明るくシャープでありながら耳に優しい音。国産クラフトの上品さがリアPUにも現れており、歪ませても耳に刺さらない。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-lp filter-color-cherryred filter-pickup-hum filter-price-p3_10 filter-weight-heavy filter-brand-bacchus"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812809_0.jpg"
+                  alt="Bacchus Universe Series BLS-700"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Bacchus</div>
+                <h3 class="guitar-name">Universe Series BLS-700</h3>
+                <div class="tag-list">
+                  <span class="tag">レスポール</span
+                  ><span class="tag">チェリーレッド</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">3〜10万円</span
+                  ><span class="tag">約4.0kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                バッカスのエントリーラインながら国内メーカーならではの品質管理が光る。レスポールシェイプのルックスとハムバッカーのパワフルなサウンドをコスパよく体験できる入門モデル。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>レスポール</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>チェリーレッド</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>3〜10万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約4.0kg / 重め（3.8kg〜）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #7b1010"></i>チェリー</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #d4b020"></i>TV イエロー</span
+                  ><span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />温かみのある入門向けサウンド。バッカスらしい丁寧な音作りで、この価格帯としては上品な鳴りを持つ。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />しっかりとしたパワー感のある歪みサウンド。コスパ重視のモデルながら、ロックの演奏には十分なキャラクターがある。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-tele filter-color-natural filter-pickup-single filter-price-p10_20 filter-weight-standard filter-brand-bacchus"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812807_0.jpg"
+                  alt="Bacchus Craft Series TACTICS-24"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Bacchus</div>
+                <h3 class="guitar-name">Craft Series TACTICS-24</h3>
+                <div class="tag-list">
+                  <span class="tag">テレキャス</span
+                  ><span class="tag">ナチュラル</span
+                  ><span class="tag">シングルコイル</span
+                  ><span class="tag">10〜20万円</span
+                  ><span class="tag">約3.2kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                バッカスクラフトシリーズのテレキャスタータイプ。アッシュボディによる抜けの良いサウンドと、日本の職人が手がける高い仕上がりが両立。カントリーからロックまで対応できる実力派。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>テレキャス</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ナチュラル</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>シングルコイル</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>10〜20万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.2kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #d4a843"></i>バタースコッチ</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #c8a870"></i>ナチュラル</span
+                  ><span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / シングルコイル</strong
+                  ><br />アッシュボディの響きが加わり、テレキャス特有の温かみに木の鳴りが加味された豊かなサウンド。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / シングルコイル</strong
+                  ><br />テレキャスらしいキラキラとしたシャープな音。国産クラフトの上品さが加わり、耳に心地よい鋭さが魅力。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-tele filter-color-sunburst filter-pickup-hum filter-price-p10_20 filter-weight-standard filter-brand-bacchus"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812810_0.jpg"
+                  alt="Bacchus Craft Series TACTICS-24 HH"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">Bacchus</div>
+                <h3 class="guitar-name">Craft Series TACTICS-24 HH</h3>
+                <div class="tag-list">
+                  <span class="tag">テレキャス</span
+                  ><span class="tag">サンバースト</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">10〜20万円</span
+                  ><span class="tag">約3.4kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                テレキャスターシェイプにキルテッドメイプルトップとHH配列を組み合わせたバッカスの個性派クラフトモデル。ワルナットネックの温かみある鳴りと、ハムバッカー2基による太いサウンドが魅力の上位機種。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>テレキャス</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>サンバースト</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>10〜20万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.4kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #d4a843"></i>バタースコッチ</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #c8a870"></i>ナチュラル</span
+                  ><span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />テレキャスボディの軽い鳴りとハムの太さが融合した独特のキャラクター。クリーントーンでの煌びやかさと歪みの温かさが両立。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />テレキャス特有のアタック感にハムのパワーが加わった攻撃的なサウンド。ロックはもちろんブルースにも対応できる幅広さが魅力。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-strat filter-color-blue filter-pickup-hum filter-price-p10_20 filter-weight-standard filter-brand-prs"
+            >
+              <div class="guitar-thumb">
+                <img src="assets/S__68812805_0.jpg" alt="PRS SE Custom 24" />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">PRS</div>
+                <h3 class="guitar-name">SE Custom 24</h3>
+                <div class="tag-list">
+                  <span class="tag">ストラト</span
+                  ><span class="tag">ブルー</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">10〜20万円</span
+                  ><span class="tag">約3.6kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                Paul Reed
+                Smithのエントリーラインながらプレミアム感のある美しいメイプルトップが特徴。24フレット仕様でハイポジションへのアクセスも容易。ロック〜フュージョンに幅広く対応。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>ストラト</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>ブルー</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>10〜20万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.6kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  ><span class="swatch"
+                    ><i style="background: #f0f0f0"></i>ホワイト</span
+                  ><span class="swatch"
+                    ><i style="background: #cc2200"></i>レッド</span
+                  ><span class="swatch"
+                    ><i style="background: #1a4a8a"></i>ブルー</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />PRSらしいクリアで上品なハムサウンド。温かみがありながらも解像感が高く、コードの分離感が美しい。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />パワフルかつクリアなサウンド。PRSの設計哲学が反映された、歪ませても音が団子にならない上品な歪み。
+                </div>
+              </details>
+            </article>
+            <article
+              class="guitar-card filter-type-semiac filter-color-cherry filter-pickup-hum filter-price-p10_20 filter-weight-standard filter-brand-prs"
+            >
+              <div class="guitar-thumb">
+                <img
+                  src="assets/S__68812803_0.jpg"
+                  alt="PRS SE Hollowbody Standard"
+                />
+              </div>
+              <div class="guitar-meta">
+                <div class="guitar-brand">PRS</div>
+                <h3 class="guitar-name">SE Hollowbody Standard</h3>
+                <div class="tag-list">
+                  <span class="tag">セミアコ</span
+                  ><span class="tag">チェリー</span
+                  ><span class="tag">ハムバッカー</span
+                  ><span class="tag">10〜20万円</span
+                  ><span class="tag">約3.3kg</span>
+                </div>
+              </div>
+              <p class="guitar-desc">
+                PRSが手がける本格的なホロウボディギター。アーチドトップとPRS製ハムバッカーが生み出す温かくエアリーなサウンドは、ジャズ・ブルース・フュージョンに最適。
+              </p>
+              <details class="guitar-detail">
+                <summary>詳しく見る</summary>
+                <table class="spec-table">
+                  <tbody>
+                    <tr>
+                      <th>タイプ</th>
+                      <td>セミアコ</td>
+                    </tr>
+                    <tr>
+                      <th>カラー</th>
+                      <td>チェリー</td>
+                    </tr>
+                    <tr>
+                      <th>ピックアップ</th>
+                      <td>ハムバッカー</td>
+                    </tr>
+                    <tr>
+                      <th>価格</th>
+                      <td>10〜20万円</td>
+                    </tr>
+                    <tr>
+                      <th>重さ</th>
+                      <td>約3.3kg / 標準（3.0〜3.8kg）</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="color-swatches">
+                  <span class="swatch"
+                    ><i style="background: #8b1515"></i>チェリーレッド</span
+                  ><span class="swatch"
+                    ><i style="background: #c8a870"></i>ナチュラル</span
+                  ><span class="swatch"
+                    ><i style="background: #8b4513"></i>サンバースト</span
+                  ><span class="swatch"
+                    ><i style="background: #111"></i>ブラック</span
+                  >
+                </div>
+                <div class="pickup-block">
+                  <strong>フロント / ハムバッカー</strong
+                  ><br />ホロウボディの箱鳴り感とPRSハムの上品さが融合。非常にエアリーで温かいトーンはジャズの演奏に理想的。
+                </div>
+                <div class="pickup-block">
+                  <strong>リア / ハムバッカー</strong
+                  ><br />ブルースのソロに最適な、少し明るめで歯切れのよいハムサウンド。ボディの鳴りが加わることで独特の奥行きが生まれる。
+                </div>
+              </details>
+            </article>
+          </div>
+        </form>
+        <a class="zukan-top-link" href="index.html">ホーム画面へ戻る</a>
+        <script>
+          // ギターカードをクリックしたら、details.guitar-detail をモーダルとして開く
+          const closeAllGuitarModals = () => {
+            document
+              .querySelectorAll("details.guitar-detail[open]")
+              .forEach((openDetails) => {
+                openDetails.open = false;
+              });
+          };
+
+          const explainSection = (label, value) => {
+            if (label === "タイプ") {
+              const map = {
+                ストラト:
+                  "バランスがよく、クリーンから歪みまで幅広く対応しやすい定番タイプです。",
+                テレキャス:
+                  "歯切れの良いアタック感が特徴。コードカッティングやリフで存在感が出ます。",
+                レスポール:
+                  "中低域が太く、伸びのあるサステインが魅力。ロックの王道サウンドです。",
+                SG: "軽量でハイポジションが弾きやすく、抜けのよいロックサウンドが得意です。",
+                ジャズマスター:
+                  "独特の倍音感と空気感があり、オルタナやクリーン系フレーズに相性が良いです。",
+                セミアコ:
+                  "箱鳴り感のある温かい音色。ジャズ〜ブルースでニュアンスが出しやすいタイプです。",
+              };
+              return (
+                map[value] ||
+                "演奏スタイルや好きな音色に合わせて選ぶと失敗しにくいです。"
+              );
+            }
+            if (label === "カラー") {
+              return "見た目の好みは継続のモチベーションに直結します。飽きずに「持ちたい」と思える色がおすすめです。";
+            }
+            if (label === "ピックアップ") {
+              if (value.includes("シングル"))
+                return "輪郭がはっきりした明るい音。カッティングやクリーンの分離感が出しやすいです。";
+              if (value.includes("ハム"))
+                return "太くパワフルでノイズに強い音。歪ませたリードやリフに向いています。";
+              if (value.includes("P90"))
+                return "シングルの抜けとハムの太さの中間的なキャラクターで、個性的な中域が魅力です。";
+              return "音のキャラクターを決める重要な要素です。好きなジャンルに合わせて選びましょう。";
+            }
+            if (label === "価格" || label === "価格帯") {
+              return "予算だけでなく、弾きやすさ・チューニング安定性・将来の拡張性も含めて検討すると満足度が高いです。";
+            }
+            if (label === "重さ") {
+              return "長時間練習するなら重さは重要です。立って弾く場合は、肩への負担もチェックすると安心です。";
+            }
+            if (label === "ブランド") {
+              return "ブランドごとに設計思想と得意なサウンドが異なります。試奏時は弾き心地も合わせて比較してください。";
+            }
+            return "この項目はギター選びの判断材料になります。実際の弾き心地と合わせて確認しましょう。";
+          };
+
+          document.querySelectorAll(".guitar-card").forEach((card) => {
+            const details = card.querySelector("details.guitar-detail");
+            if (!details) return;
+
+            const brand = (
+              card.querySelector(".guitar-brand")?.textContent || ""
+            ).trim();
+            const name = (
+              card.querySelector(".guitar-name")?.textContent || ""
+            ).trim();
+            const type = (card.querySelector(".tag")?.textContent || "").trim();
+            const desc = (
+              card.querySelector(".guitar-desc")?.textContent || ""
+            ).trim();
+            const thumbSrc =
+              card.querySelector(".guitar-thumb img")?.getAttribute("src") ||
+              "";
+            const thumbAlt =
+              card.querySelector(".guitar-thumb img")?.getAttribute("alt") ||
+              name;
+            const specRows = Array.from(
+              details.querySelectorAll(".spec-table tr"),
+            );
+
+            if (!details.querySelector(".guitar-modal-head")) {
+              const modalHead = document.createElement("div");
+              modalHead.className = "guitar-modal-head";
+              modalHead.innerHTML =
+                '<button type="button" class="guitar-modal-close" aria-label="閉じる">×</button>' +
+                '<div class="guitar-modal-hero"><img src="' +
+                thumbSrc +
+                '" alt="' +
+                thumbAlt +
+                '"></div>' +
+                '<div class="guitar-modal-band">' +
+                '<div class="guitar-modal-type">' +
+                type +
+                "</div>" +
+                '<h2 class="guitar-modal-name">' +
+                brand +
+                " " +
+                name +
+                "</h2>" +
+                "</div>" +
+                '<p class="guitar-modal-note">項目をタップすると詳細が見られます</p>';
+              details.insertBefore(modalHead, details.firstChild);
+
+              const closeButton = modalHead.querySelector(
+                ".guitar-modal-close",
+              );
+              if (closeButton) {
+                closeButton.addEventListener("click", (e) => {
+                  e.stopPropagation();
+                  details.open = false;
+                });
+              }
+
+              if (!details.querySelector(".guitar-modal-desc")) {
+                const modalDesc = document.createElement("p");
+                modalDesc.className = "guitar-modal-desc";
+                modalDesc.textContent = desc;
+                details.appendChild(modalDesc);
+              }
+
+              if (!details.querySelector(".guitar-modal-sections")) {
+                const colorElement = details.querySelector(".color-swatches");
+                const pickupElements = Array.from(
+                  details.querySelectorAll(".pickup-block"),
+                );
+                const sectionData = specRows.map((row) => {
+                  const label = (
+                    row.querySelector("th")?.textContent || ""
+                  ).trim();
+                  const value = (
+                    row.querySelector("td")?.textContent || ""
+                  ).trim();
+                  return { label, value };
+                });
+                sectionData.push({ label: "ブランド", value: brand });
+
+                const sections = document.createElement("div");
+                sections.className = "guitar-modal-sections";
+                sections.innerHTML = sectionData
+                  .map((item, idx) => {
+                    const isOpen = idx === 0;
+                    let body =
+                      '<p class="guitar-modal-acc-text">' +
+                      explainSection(item.label, item.value) +
+                      "</p>";
+                    if (item.label === "カラー" && colorElement) {
+                      body = colorElement.outerHTML + body;
+                    }
+                    if (item.label === "ピックアップ") {
+                      const pickupHtml = pickupElements
+                        .map((pickup) => pickup.outerHTML)
+                        .join("");
+                      body = pickupHtml + body;
+                    }
+                    return (
+                      '<details class="guitar-modal-acc"' +
+                      (isOpen ? " open" : "") +
+                      ">" +
+                      '<summary class="guitar-modal-acc-summary">' +
+                      item.label +
+                      "（" +
+                      item.value +
+                      "）</summary>" +
+                      '<div class="guitar-modal-acc-body">' +
+                      body +
+                      "</div>" +
+                      "</details>"
+                    );
+                  })
+                  .join("");
+                details.appendChild(sections);
+
+                if (colorElement) colorElement.remove();
+                pickupElements.forEach((pickup) => pickup.remove());
+
+                if (!details.querySelector(".guitar-modal-back")) {
+                  const backBtn = document.createElement("button");
+                  backBtn.type = "button";
+                  backBtn.className = "guitar-modal-back";
+                  backBtn.textContent = "一覧に戻る";
+                  backBtn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    details.open = false;
+                  });
+                  details.appendChild(backBtn);
+                }
+              }
+            }
+
+            card.addEventListener("click", (e) => {
+              // モーダル表示中の内側クリックでは再オープン処理をしない
+              if (details.open && e.target.closest(".guitar-detail")) return;
+              if (
+                e.target.closest(".filter-panel") ||
+                e.target.closest(".css-filter-button")
+              )
+                return;
+              closeAllGuitarModals();
+              details.open = true;
+            });
+
+            // オーバーレイ部分（背景）クリックで閉じる
+            details.addEventListener("click", (e) => {
+              if (e.target === details) details.open = false;
+            });
+          });
+
+          // ESC キーでモーダルを閉じる
+          document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") closeAllGuitarModals();
+          });
+
+          // モーダル表示中はスクロールを抑止
+          document.addEventListener("toggle", (e) => {
+            if (
+              e.target &&
+              e.target.matches &&
+              e.target.matches("details.guitar-detail")
+            ) {
+              document.body.style.overflow = document.querySelector(
+                "details.guitar-detail[open]",
+              )
+                ? "hidden"
+                : "";
+            }
+          });
+        </script>
+      </section>
+    </div>
+  </body>
+</html>
