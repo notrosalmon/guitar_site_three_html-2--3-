@@ -1,0 +1,7875 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+body {
+  background: #e0e0e0;
+  font-family:
+    "Zen Maru Gothic",
+    "Noto Sans JP",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+button,
+select {
+  font: inherit;
+}
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+svg {
+  display: block;
+}
+img {
+  display: block;
+}
+#root {
+  min-height: 100vh;
+}
+.home-design-shell {
+  width: 402px;
+  position: relative;
+  margin: 0 auto;
+  border-right: 1px solid #000;
+}
+.home-design-shell > [data-name="デザインカンプ"] {
+  width: 402px !important;
+  height: 2776px !important;
+}
+.screen-frame {
+  width: 402px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.-scale-y-100 {
+  transform: scaleY(-1);
+}
+.\[word-break\:break-word\] {
+  word-break: break-word;
+}
+.absolute {
+  position: absolute;
+}
+.bg-\[\#d9d9d9\] {
+  background-color: #d9d9d9;
+}
+.bg-\[\#e0e0e0\] {
+  background-color: #e0e0e0;
+}
+.bg-\[\#e5e7eb\] {
+  background-color: #e5e7eb;
+}
+.bg-\[\#f3e166\] {
+  background-color: #f3e166;
+}
+.bg-\[\#f5f5f5\] {
+  background-color: #f5f5f5;
+}
+.bg-\[\#ffebcc\] {
+  background-color: #ffebcc;
+}
+.bg-\[\#fffbe6\] {
+  background-color: #fffbe6;
+}
+.bg-black {
+  background-color: #000;
+}
+.bg-black\/60 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.bg-white {
+  background-color: #fff;
+}
+.block {
+  display: block;
+}
+.border {
+  border-width: 1px;
+}
+.border-\[\#bbb\] {
+  border-color: #bbb;
+}
+.border-\[\#ccc\] {
+  border-color: #ccc;
+}
+.border-\[\#e8d800\] {
+  border-color: #e8d800;
+}
+.border-\[\#eee\] {
+  border-color: #eee;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-black {
+  border-color: #000;
+}
+.border-none {
+  border: none;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.bottom-2 {
+  bottom: 8px;
+}
+.break-keep {
+  word-break: keep-all;
+}
+.content-stretch {
+  align-content: stretch;
+}
+.contents {
+  display: contents;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.duration-150 {
+  transition-duration: 0.15s;
+}
+.duration-200 {
+  transition-duration: 0.2s;
+}
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-none {
+  flex: none;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.font-\[\'Zen_Dots\:Regular\'\,\'Noto_Sans_JP\:Regular\'\,sans-serif\] {
+  font-family:
+    "Zen Maru Gothic",
+    "Noto Sans JP",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+.font-\[\'Zen_Maru_Gothic\:Light\'\,sans-serif\] {
+  font-family:
+    "Zen Maru Gothic",
+    "Noto Sans JP",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+.font-\[\'Zen_Maru_Gothic\:Medium\'\,sans-serif\] {
+  font-family:
+    "Zen Maru Gothic",
+    "Noto Sans JP",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+.font-\[\'Zen_Maru_Gothic\:Regular\'\,sans-serif\] {
+  font-family:
+    "Zen Maru Gothic",
+    "Noto Sans JP",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+.font-black {
+  font-weight: 900;
+}
+.font-bold {
+  font-weight: 700;
+}
+.gap-1 {
+  gap: 4px;
+}
+.gap-1\.5 {
+  gap: 6px;
+}
+.gap-2 {
+  gap: 8px;
+}
+.gap-3 {
+  gap: 12px;
+}
+.gap-4 {
+  gap: 16px;
+}
+.gap-\[20px\] {
+  gap: 20px;
+}
+.gap-x-9 {
+  column-gap: 36px;
+}
+.gap-y-8 {
+  row-gap: 32px;
+}
+.grid {
+  display: grid;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.group:hover .group-hover\:border-black {
+  border-color: #000;
+}
+.h-2 {
+  height: 8px;
+}
+.h-6 {
+  height: 24px;
+}
+.h-8 {
+  height: 32px;
+}
+.h-\[1021px\] {
+  height: 1021px;
+}
+.h-\[108\.71px\] {
+  height: 108.71px;
+}
+.h-\[109\.109px\] {
+  height: 109.109px;
+}
+.h-\[116\.962px\] {
+  height: 116.962px;
+}
+.h-\[121\.937px\] {
+  height: 121.937px;
+}
+.h-\[1254\.485px\] {
+  height: 1254.485px;
+}
+.h-\[13\.571px\] {
+  height: 13.571px;
+}
+.h-\[1311\.75px\] {
+  height: 1311.75px;
+}
+.h-\[1311px\] {
+  height: 1311px;
+}
+.h-\[142\.179px\] {
+  height: 142.179px;
+}
+.h-\[143\.198px\] {
+  height: 143.198px;
+}
+.h-\[145\.141px\] {
+  height: 145.141px;
+}
+.h-\[171\.572px\] {
+  height: 171.572px;
+}
+.h-\[174\.479px\] {
+  height: 174.479px;
+}
+.h-\[176\.025px\] {
+  height: 176.025px;
+}
+.h-\[177\.813px\] {
+  height: 177.813px;
+}
+.h-\[181\.567px\] {
+  height: 181.567px;
+}
+.h-\[215\.19px\] {
+  height: 215.19px;
+}
+.h-\[219\.734px\] {
+  height: 219.734px;
+}
+.h-\[225\.741px\] {
+  height: 225.741px;
+}
+.h-\[22px\] {
+  height: 22px;
+}
+.h-\[230\.365px\] {
+  height: 230.365px;
+}
+.h-\[233\.56px\] {
+  height: 233.56px;
+}
+.h-\[233\.863px\] {
+  height: 233.863px;
+}
+.h-\[24px\] {
+  height: 24px;
+}
+.h-\[253px\] {
+  height: 253px;
+}
+.h-\[26\.308px\] {
+  height: 26.308px;
+}
+.h-\[261px\] {
+  height: 261px;
+}
+.h-\[271\.575px\] {
+  height: 271.575px;
+}
+.h-\[278\.708px\] {
+  height: 278.708px;
+}
+.h-\[309px\] {
+  height: 309px;
+}
+.h-\[316\.468px\] {
+  height: 316.468px;
+}
+.h-\[32\.5px\] {
+  height: 32.5px;
+}
+.h-\[33\.399px\] {
+  height: 33.399px;
+}
+.h-\[35\.745px\] {
+  height: 35.745px;
+}
+.h-\[367px\] {
+  height: 367px;
+}
+.h-\[38\.894px\] {
+  height: 38.894px;
+}
+.h-\[38px\] {
+  height: 38px;
+}
+.h-\[40\.158px\] {
+  height: 40.158px;
+}
+.h-\[40\.714px\] {
+  height: 40.714px;
+}
+.h-\[417\.127px\] {
+  height: 417.127px;
+}
+.h-\[418\.996px\] {
+  height: 418.996px;
+}
+.h-\[42\.636px\] {
+  height: 42.636px;
+}
+.h-\[42\.75px\] {
+  height: 42.75px;
+}
+.h-\[42\.997px\] {
+  height: 42.997px;
+}
+.h-\[42px\] {
+  height: 42px;
+}
+.h-\[43\.021px\] {
+  height: 43.021px;
+}
+.h-\[43\.782px\] {
+  height: 43.782px;
+}
+.h-\[44\.11px\] {
+  height: 44.11px;
+}
+.h-\[44\.689px\] {
+  height: 44.689px;
+}
+.h-\[442\.656px\] {
+  height: 442.656px;
+}
+.h-\[45\.035px\] {
+  height: 45.035px;
+}
+.h-\[45\.181px\] {
+  height: 45.181px;
+}
+.h-\[45\.182px\] {
+  height: 45.182px;
+}
+.h-\[46\.195px\] {
+  height: 46.195px;
+}
+.h-\[46\.24px\] {
+  height: 46.24px;
+}
+.h-\[46\.684px\] {
+  height: 46.684px;
+}
+.h-\[46\.954px\] {
+  height: 46.954px;
+}
+.h-\[47\.521px\] {
+  height: 47.521px;
+}
+.h-\[477px\] {
+  height: 477px;
+}
+.h-\[48\.04px\] {
+  height: 48.04px;
+}
+.h-\[49\.054px\] {
+  height: 49.054px;
+}
+.h-\[515\.5px\] {
+  height: 515.5px;
+}
+.h-\[52\.159px\] {
+  height: 52.159px;
+}
+.h-\[52\.474px\] {
+  height: 52.474px;
+}
+.h-\[52\.863px\] {
+  height: 52.863px;
+}
+.h-\[53\.274px\] {
+  height: 53.274px;
+}
+.h-\[53\.384px\] {
+  height: 53.384px;
+}
+.h-\[53\.491px\] {
+  height: 53.491px;
+}
+.h-\[53\.822px\] {
+  height: 53.822px;
+}
+.h-\[54px\] {
+  height: 54px;
+}
+.h-\[559px\] {
+  height: 559px;
+}
+.h-\[57px\] {
+  height: 57px;
+}
+.h-\[58\.481px\] {
+  height: 58.481px;
+}
+.h-\[58\.873px\] {
+  height: 58.873px;
+}
+.h-\[59\.279px\] {
+  height: 59.279px;
+}
+.h-\[60\.352px\] {
+  height: 60.352px;
+}
+.h-\[60\.405px\] {
+  height: 60.405px;
+}
+.h-\[603\.406px\] {
+  height: 603.406px;
+}
+.h-\[63\.065px\] {
+  height: 63.065px;
+}
+.h-\[637\.578px\] {
+  height: 637.578px;
+}
+.h-\[639px\] {
+  height: 639px;
+}
+.h-\[64\.5px\] {
+  height: 64.5px;
+}
+.h-\[64\.628px\] {
+  height: 64.628px;
+}
+.h-\[64px\] {
+  height: 64px;
+}
+.h-\[655px\] {
+  height: 655px;
+}
+.h-\[66\.907px\] {
+  height: 66.907px;
+}
+.h-\[668px\] {
+  height: 668px;
+}
+.h-\[674\.538px\] {
+  height: 674.538px;
+}
+.h-\[71\.73px\] {
+  height: 71.73px;
+}
+.h-\[71\.896px\] {
+  height: 71.896px;
+}
+.h-\[72\.038px\] {
+  height: 72.038px;
+}
+.h-\[72\.909px\] {
+  height: 72.909px;
+}
+.h-\[73px\] {
+  height: 73px;
+}
+.h-\[746px\] {
+  height: 746px;
+}
+.h-\[78\.351px\] {
+  height: 78.351px;
+}
+.h-\[78px\] {
+  height: 78px;
+}
+.h-\[8\.488px\] {
+  height: 8.488px;
+}
+.h-\[867\.61px\] {
+  height: 867.61px;
+}
+.h-\[86px\] {
+  height: 86px;
+}
+.h-\[89\.99\%\] {
+  height: 89.99%;
+}
+.h-\[890px\] {
+  height: 890px;
+}
+.h-\[90\.528px\] {
+  height: 90.528px;
+}
+.h-\[91\.453px\] {
+  height: 91.453px;
+}
+.h-full {
+  height: 100%;
+}
+.hover\:bg-\[\#f3e166\]:hover {
+  background-color: #f3e166;
+}
+.hover\:bg-\[\#fffbe6\]:hover {
+  background-color: #fffbe6;
+}
+.hover\:bg-gray-100:hover {
+  background-color: #f3f4f6;
+}
+.hover\:bg-gray-50:hover {
+  background-color: #f9fafb;
+}
+.hover\:bg-gray-800:hover {
+  background-color: #1f2937;
+}
+.inset-0 {
+  inset: 0;
+}
+.inset-\[-0\.14\%_-0\.33\%_-0\.11\%_-0\.32\%\] {
+  top: -0.14%;
+  right: -0.33%;
+  bottom: -0.11%;
+  left: -0.32%;
+}
+.inset-\[-0\.17\%_-0\.4\%_-0\.17\%_-0\.42\%\] {
+  top: -0.17%;
+  right: -0.4%;
+  bottom: -0.17%;
+  left: -0.42%;
+}
+.inset-\[-0\.3\%_-0\.2\%\] {
+  top: -0.3%;
+  right: -0.2%;
+  bottom: -0.3%;
+  left: -0.2%;
+}
+.inset-\[-0\.35\%_-0\.16\%_-0\.35\%_-0\.2\%\] {
+  top: -0.35%;
+  right: -0.16%;
+  bottom: -0.35%;
+  left: -0.2%;
+}
+.inset-\[-0\.35\%_-0\.18\%_-0\.35\%_-0\.19\%\] {
+  top: -0.35%;
+  right: -0.18%;
+  bottom: -0.35%;
+  left: -0.19%;
+}
+.inset-\[-0\.41\%_-0\.22\%_-0\.41\%_-0\.2\%\] {
+  top: -0.41%;
+  right: -0.22%;
+  bottom: -0.41%;
+  left: -0.2%;
+}
+.inset-\[-0\.53\%_-0\.3\%_-0\.52\%_-0\.29\%\] {
+  top: -0.53%;
+  right: -0.3%;
+  bottom: -0.52%;
+  left: -0.29%;
+}
+.inset-\[-0\.58\%_-0\.23\%\] {
+  top: -0.58%;
+  right: -0.23%;
+  bottom: -0.58%;
+  left: -0.23%;
+}
+.inset-\[-0\.78\%_-0\.9\%_-0\.89\%_-0\.9\%\] {
+  top: -0.78%;
+  right: -0.9%;
+  bottom: -0.89%;
+  left: -0.9%;
+}
+.inset-\[-0\.8\%_-0\.44\%_-0\.8\%_-0\.32\%\] {
+  top: -0.8%;
+  right: -0.44%;
+  bottom: -0.8%;
+  left: -0.32%;
+}
+.inset-\[-1\.07\%_-0\.28\%_-1\.06\%_-0\.32\%\] {
+  top: -1.07%;
+  right: -0.28%;
+  bottom: -1.06%;
+  left: -0.32%;
+}
+.inset-\[-1\.34\%_-0\.32\%_-1\.34\%_-0\.35\%\] {
+  top: -1.34%;
+  right: -0.32%;
+  bottom: -1.34%;
+  left: -0.35%;
+}
+.inset-\[-1\.47\%_-0\.55\%_-1\.19\%_-0\.57\%\] {
+  top: -1.47%;
+  right: -0.55%;
+  bottom: -1.19%;
+  left: -0.57%;
+}
+.inset-\[-1\.55\%_-0\.55\%_-1\.54\%_-0\.56\%\] {
+  top: -1.55%;
+  right: -0.55%;
+  bottom: -1.54%;
+  left: -0.56%;
+}
+.inset-\[-1px\] {
+  inset: -1px;
+}
+.inset-\[-4\.55\%_0_0_0\] {
+  top: -4.55%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.inset-\[0_-0\.15\%\] {
+  top: 0;
+  right: -0.15%;
+  bottom: 0;
+  left: -0.15%;
+}
+.items-center {
+  align-items: center;
+}
+.items-stretch {
+  align-items: stretch;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.leading-\[0\] {
+  line-height: 0;
+}
+.leading-\[1\.18\] {
+  line-height: 1.18;
+}
+.leading-\[1\.4\] {
+  line-height: 1.4;
+}
+.leading-\[1\.55\] {
+  line-height: 1.55;
+}
+.leading-\[1\.6\] {
+  line-height: 1.6;
+}
+.leading-\[1\.7\] {
+  line-height: 1.7;
+}
+.leading-\[1\.8\] {
+  line-height: 1.8;
+}
+.leading-\[2\.5\] {
+  line-height: 2.5;
+}
+.leading-\[2\.85\] {
+  line-height: 2.85;
+}
+.leading-\[2\] {
+  line-height: 2;
+}
+.leading-\[normal\] {
+  line-height: normal;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.left-0 {
+  left: 0;
+}
+.left-\[-1\.98px\] {
+  left: -1.98px;
+}
+.left-\[-127px\] {
+  left: -127px;
+}
+.left-\[-128px\] {
+  left: -128px;
+}
+.left-\[-168px\] {
+  left: -168px;
+}
+.left-\[-1px\] {
+  left: -1px;
+}
+.left-\[-28px\] {
+  left: -28px;
+}
+.left-\[-2px\] {
+  left: -2px;
+}
+.left-\[-42px\] {
+  left: -42px;
+}
+.left-\[-49px\] {
+  left: -49px;
+}
+.left-\[-6px\] {
+  left: -6px;
+}
+.left-\[-71px\] {
+  left: -71px;
+}
+.left-\[-76px\] {
+  left: -76px;
+}
+.left-\[-77\.26px\] {
+  left: -77.26px;
+}
+.left-\[-7px\] {
+  left: -7px;
+}
+.left-\[-8px\] {
+  left: -8px;
+}
+.left-\[10px\] {
+  left: 10px;
+}
+.left-\[114px\] {
+  left: 114px;
+}
+.left-\[118px\] {
+  left: 118px;
+}
+.left-\[11px\] {
+  left: 11px;
+}
+.left-\[122px\] {
+  left: 122px;
+}
+.left-\[127px\] {
+  left: 127px;
+}
+.left-\[129\.67px\] {
+  left: 129.67px;
+}
+.left-\[12px\] {
+  left: 12px;
+}
+.left-\[134px\] {
+  left: 134px;
+}
+.left-\[136px\] {
+  left: 136px;
+}
+.left-\[150px\] {
+  left: 150px;
+}
+.left-\[158px\] {
+  left: 158px;
+}
+.left-\[161\.59px\] {
+  left: 161.59px;
+}
+.left-\[161px\] {
+  left: 161px;
+}
+.left-\[164px\] {
+  left: 164px;
+}
+.left-\[171px\] {
+  left: 171px;
+}
+.left-\[176\.22px\] {
+  left: 176.22px;
+}
+.left-\[183px\] {
+  left: 183px;
+}
+.left-\[186\.2px\] {
+  left: 186.2px;
+}
+.left-\[2014px\] {
+  left: 2014px;
+}
+.left-\[201px\] {
+  left: 201px;
+}
+.left-\[20px\] {
+  left: 20px;
+}
+.left-\[214px\] {
+  left: 214px;
+}
+.left-\[220\.93px\] {
+  left: 220.93px;
+}
+.left-\[225px\] {
+  left: 225px;
+}
+.left-\[22px\] {
+  left: 22px;
+}
+.left-\[234\.61px\] {
+  left: 234.61px;
+}
+.left-\[234px\] {
+  left: 234px;
+}
+.left-\[263\.54px\] {
+  left: 263.54px;
+}
+.left-\[263px\] {
+  left: 263px;
+}
+.left-\[28\.32px\] {
+  left: 28.32px;
+}
+.left-\[2868px\] {
+  left: 2868px;
+}
+.left-\[297px\] {
+  left: 297px;
+}
+.left-\[30\.48px\] {
+  left: 30.48px;
+}
+.left-\[306px\] {
+  left: 306px;
+}
+.left-\[31\.3px\] {
+  left: 31.3px;
+}
+.left-\[3162px\] {
+  left: 3162px;
+}
+.left-\[319\.02px\] {
+  left: 319.02px;
+}
+.left-\[31px\] {
+  left: 31px;
+}
+.left-\[327px\] {
+  left: 327px;
+}
+.left-\[332px\] {
+  left: 332px;
+}
+.left-\[34\.24px\] {
+  left: 34.24px;
+}
+.left-\[344\.3px\] {
+  left: 344.3px;
+}
+.left-\[347px\] {
+  left: 347px;
+}
+.left-\[350px\] {
+  left: 350px;
+}
+.left-\[351px\] {
+  left: 351px;
+}
+.left-\[354\.82px\] {
+  left: 354.82px;
+}
+.left-\[358px\] {
+  left: 358px;
+}
+.left-\[35px\] {
+  left: 35px;
+}
+.left-\[36\.36px\] {
+  left: 36.36px;
+}
+.left-\[366\.28px\] {
+  left: 366.28px;
+}
+.left-\[366px\] {
+  left: 366px;
+}
+.left-\[367\.19px\] {
+  left: 367.19px;
+}
+.left-\[37px\] {
+  left: 37px;
+}
+.left-\[3880px\] {
+  left: 3880px;
+}
+.left-\[4\.5px\] {
+  left: 4.5px;
+}
+.left-\[41\.98px\] {
+  left: 41.98px;
+}
+.left-\[42px\] {
+  left: 42px;
+}
+.left-\[43px\] {
+  left: 43px;
+}
+.left-\[48px\] {
+  left: 48px;
+}
+.left-\[53px\] {
+  left: 53px;
+}
+.left-\[58px\] {
+  left: 58px;
+}
+.left-\[62px\] {
+  left: 62px;
+}
+.left-\[7\.98px\] {
+  left: 7.98px;
+}
+.left-\[71\.01px\] {
+  left: 71.01px;
+}
+.left-\[74px\] {
+  left: 74px;
+}
+.left-\[8\.64\%\] {
+  left: 8.64%;
+}
+.left-\[81\.48px\] {
+  left: 81.48px;
+}
+.left-\[81\.8px\] {
+  left: 81.8px;
+}
+.left-\[81\.98px\] {
+  left: 81.98px;
+}
+.left-\[9\.48px\] {
+  left: 9.48px;
+}
+.left-\[9\.5px\] {
+  left: 9.5px;
+}
+.left-\[91px\] {
+  left: 91px;
+}
+.left-\[93px\] {
+  left: 93px;
+}
+.left-\[94px\] {
+  left: 94px;
+}
+.left-px {
+  left: 1px;
+}
+.max-w-none {
+  max-width: none;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-0\.5 {
+  margin-bottom: 2px;
+}
+.mb-1 {
+  margin-bottom: 4px;
+}
+.mb-2 {
+  margin-bottom: 8px;
+}
+.mb-4 {
+  margin-bottom: 16px;
+}
+.mb-8 {
+  margin-bottom: 32px;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.mt-1 {
+  margin-top: 4px;
+}
+.mt-2 {
+  margin-top: 8px;
+}
+.mt-4 {
+  margin-top: 16px;
+}
+.mt-5 {
+  margin-top: 20px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.not-italic {
+  font-style: normal;
+}
+.object-contain {
+  object-fit: contain;
+}
+.object-cover {
+  object-fit: cover;
+}
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.p-0 {
+  padding: 0;
+}
+.p-2 {
+  padding: 8px;
+}
+.p-3 {
+  padding: 12px;
+}
+.p-4 {
+  padding: 16px;
+}
+.pb-2 {
+  padding-bottom: 8px;
+}
+.pb-5 {
+  padding-bottom: 20px;
+}
+.pb-6 {
+  padding-bottom: 24px;
+}
+.pl-1 {
+  padding-left: 4px;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.pt-1 {
+  padding-top: 4px;
+}
+.pt-2 {
+  padding-top: 8px;
+}
+.pt-5 {
+  padding-top: 20px;
+}
+.px-1 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.px-2 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.px-5 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.px-6 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.px-8 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.px-\[6px\] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.py-0\.5 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.py-1\.5 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.py-2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.py-20 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.py-3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.py-6 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.relative {
+  position: relative;
+}
+.right-0 {
+  right: 0;
+}
+.right-2 {
+  right: 8px;
+}
+.right-\[2px\] {
+  right: 2px;
+}
+.rotate-\[-0\.62deg\] {
+  transform: rotate(-0.62deg);
+}
+.rotate-\[-10\.49deg\] {
+  transform: rotate(-10.49deg);
+}
+.rotate-\[-10\.8deg\] {
+  transform: rotate(-10.8deg);
+}
+.rotate-\[-12\.03deg\] {
+  transform: rotate(-12.03deg);
+}
+.rotate-\[-13\.56deg\] {
+  transform: rotate(-13.56deg);
+}
+.rotate-\[-14\.24deg\] {
+  transform: rotate(-14.24deg);
+}
+.rotate-\[-151\.09deg\] {
+  transform: rotate(-151.09deg);
+}
+.rotate-\[-16\.87deg\] {
+  transform: rotate(-16.87deg);
+}
+.rotate-\[-168\.67deg\] {
+  transform: rotate(-168.67deg);
+}
+.rotate-\[-18\.21deg\] {
+  transform: rotate(-18.21deg);
+}
+.rotate-\[-19\.55deg\] {
+  transform: rotate(-19.55deg);
+}
+.rotate-\[-2\.48deg\] {
+  transform: rotate(-2.48deg);
+}
+.rotate-\[-2\.86deg\] {
+  transform: rotate(-2.86deg);
+}
+.rotate-\[-2\.9deg\] {
+  transform: rotate(-2.9deg);
+}
+.rotate-\[-23\.71deg\] {
+  transform: rotate(-23.71deg);
+}
+.rotate-\[-24\.18deg\] {
+  transform: rotate(-24.18deg);
+}
+.rotate-\[-25\.33deg\] {
+  transform: rotate(-25.33deg);
+}
+.rotate-\[-28\.43deg\] {
+  transform: rotate(-28.43deg);
+}
+.rotate-\[-4\.75deg\] {
+  transform: rotate(-4.75deg);
+}
+.rotate-\[-44\.15deg\] {
+  transform: rotate(-44.15deg);
+}
+.rotate-\[-6\.53deg\] {
+  transform: rotate(-6.53deg);
+}
+.rotate-\[10\.31deg\] {
+  transform: rotate(10.31deg);
+}
+.rotate-\[10\.46deg\] {
+  transform: rotate(10.46deg);
+}
+.rotate-\[13\.4deg\] {
+  transform: rotate(13.4deg);
+}
+.rotate-\[15\.01deg\] {
+  transform: rotate(15.01deg);
+}
+.rotate-\[152\.68deg\] {
+  transform: rotate(152.68deg);
+}
+.rotate-\[162\.21deg\] {
+  transform: rotate(162.21deg);
+}
+.rotate-\[18\.57deg\] {
+  transform: rotate(18.57deg);
+}
+.rotate-\[18\.83deg\] {
+  transform: rotate(18.83deg);
+}
+.rotate-\[2\.03deg\] {
+  transform: rotate(2.03deg);
+}
+.rotate-\[21\.78deg\] {
+  transform: rotate(21.78deg);
+}
+.rotate-\[23\.63deg\] {
+  transform: rotate(23.63deg);
+}
+.rotate-\[23\.82deg\] {
+  transform: rotate(23.82deg);
+}
+.rotate-\[24\.83deg\] {
+  transform: rotate(24.83deg);
+}
+.rotate-\[28\.91deg\] {
+  transform: rotate(28.91deg);
+}
+.rotate-\[3\.3deg\] {
+  transform: rotate(3.3deg);
+}
+.rotate-\[31\.19deg\] {
+  transform: rotate(31.19deg);
+}
+.rotate-\[4\.83deg\] {
+  transform: rotate(4.83deg);
+}
+.rotate-\[7\.4deg\] {
+  transform: rotate(7.4deg);
+}
+.rotate-\[8\.13deg\] {
+  transform: rotate(8.13deg);
+}
+.rotate-\[8\.25deg\] {
+  transform: rotate(8.25deg);
+}
+.rotate-\[8\.82deg\] {
+  transform: rotate(8.82deg);
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+.rounded-\[21px\] {
+  border-radius: 21px;
+}
+.rounded-\[26px\] {
+  border-radius: 26px;
+}
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+.rounded-\[31px\] {
+  border-radius: 31px;
+}
+.rounded-\[4px\] {
+  border-radius: 4px;
+}
+.rounded-\[53px\] {
+  border-radius: 53px;
+}
+.rounded-\[6px\] {
+  border-radius: 6px;
+}
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+.rounded-\[9px\] {
+  border-radius: 9px;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.shrink-0 {
+  flex-shrink: 0;
+}
+.size-full {
+  width: 100%;
+  height: 100%;
+}
+.text-\[\#363636\] {
+  font-size: #363636;
+}
+.text-\[\#f3e166\] {
+  font-size: #f3e166;
+}
+.text-\[10px\] {
+  font-size: 10px;
+}
+.text-\[11px\] {
+  font-size: 11px;
+}
+.text-\[12px\] {
+  font-size: 12px;
+}
+.text-\[13px\] {
+  font-size: 13px;
+}
+.text-\[14px\] {
+  font-size: 14px;
+}
+.text-\[15px\] {
+  font-size: 15px;
+}
+.text-\[16px\] {
+  font-size: 16px;
+}
+.text-\[18px\] {
+  font-size: 18px;
+}
+.text-\[20px\] {
+  font-size: 20px;
+}
+.text-\[24px\] {
+  font-size: 24px;
+}
+.text-\[32px\] {
+  font-size: 32px;
+}
+.text-\[36px\] {
+  font-size: 36px;
+}
+.text-\[40px\] {
+  font-size: 40px;
+}
+.text-\[48px\] {
+  font-size: 48px;
+}
+.text-\[9px\] {
+  font-size: 9px;
+}
+.text-black {
+  color: #000;
+}
+.text-center {
+  text-align: center;
+}
+.text-gray-400 {
+  color: #9ca3af;
+}
+.text-gray-500 {
+  color: #6b7280;
+}
+.text-right {
+  text-align: right;
+}
+.text-white {
+  color: #fff;
+}
+.top-0 {
+  top: 0;
+}
+.top-\[-10px\] {
+  top: -10px;
+}
+.top-\[-1160px\] {
+  top: -1160px;
+}
+.top-\[-16\.33px\] {
+  top: -16.33px;
+}
+.top-\[-1759px\] {
+  top: -1759px;
+}
+.top-\[-1868px\] {
+  top: -1868px;
+}
+.top-\[-1869px\] {
+  top: -1869px;
+}
+.top-\[-1px\] {
+  top: -1px;
+}
+.top-\[-32\.38px\] {
+  top: -32.38px;
+}
+.top-\[10\.4px\] {
+  top: 10.4px;
+}
+.top-\[103px\] {
+  top: 103px;
+}
+.top-\[1097px\] {
+  top: 1097px;
+}
+.top-\[10px\] {
+  top: 10px;
+}
+.top-\[1175\.97px\] {
+  top: 1175.97px;
+}
+.top-\[118\.72px\] {
+  top: 118.72px;
+}
+.top-\[119\.05px\] {
+  top: 119.05px;
+}
+.top-\[1202\.33px\] {
+  top: 1202.33px;
+}
+.top-\[1213px\] {
+  top: 1213px;
+}
+.top-\[124px\] {
+  top: 124px;
+}
+.top-\[1269px\] {
+  top: 1269px;
+}
+.top-\[13\.66px\] {
+  top: 13.66px;
+}
+.top-\[1335px\] {
+  top: 1335px;
+}
+.top-\[1336px\] {
+  top: 1336px;
+}
+.top-\[1389\.67px\] {
+  top: 1389.67px;
+}
+.top-\[1402\.09px\] {
+  top: 1402.09px;
+}
+.top-\[1406\.95px\] {
+  top: 1406.95px;
+}
+.top-\[144\.39px\] {
+  top: 144.39px;
+}
+.top-\[1446\.02px\] {
+  top: 1446.02px;
+}
+.top-\[148\.97px\] {
+  top: 148.97px;
+}
+.top-\[148\.98px\] {
+  top: 148.98px;
+}
+.top-\[153\.98px\] {
+  top: 153.98px;
+}
+.top-\[1556\.16px\] {
+  top: 1556.16px;
+}
+.top-\[156px\] {
+  top: 156px;
+}
+.top-\[1577\.02px\] {
+  top: 1577.02px;
+}
+.top-\[1602\.19px\] {
+  top: 1602.19px;
+}
+.top-\[1628\.02px\] {
+  top: 1628.02px;
+}
+.top-\[1669\.02px\] {
+  top: 1669.02px;
+}
+.top-\[1680\.02px\] {
+  top: 1680.02px;
+}
+.top-\[16px\] {
+  top: 16px;
+}
+.top-\[1704\.99px\] {
+  top: 1704.99px;
+}
+.top-\[1716\.02px\] {
+  top: 1716.02px;
+}
+.top-\[1735\.02px\] {
+  top: 1735.02px;
+}
+.top-\[1764\.02px\] {
+  top: 1764.02px;
+}
+.top-\[17px\] {
+  top: 17px;
+}
+.top-\[18\.05px\] {
+  top: 18.05px;
+}
+.top-\[1810\.02px\] {
+  top: 1810.02px;
+}
+.top-\[18px\] {
+  top: 18px;
+}
+.top-\[1909\.3px\] {
+  top: 1909.3px;
+}
+.top-\[192px\] {
+  top: 192px;
+}
+.top-\[1947\.62px\] {
+  top: 1947.62px;
+}
+.top-\[194px\] {
+  top: 194px;
+}
+.top-\[1958\.02px\] {
+  top: 1958.02px;
+}
+.top-\[202\.18px\] {
+  top: 202.18px;
+}
+.top-\[2173\.02px\] {
+  top: 2173.02px;
+}
+.top-\[2254\.02px\] {
+  top: 2254.02px;
+}
+.top-\[228px\] {
+  top: 228px;
+}
+.top-\[229px\] {
+  top: 229px;
+}
+.top-\[235\.24px\] {
+  top: 235.24px;
+}
+.top-\[246\.82px\] {
+  top: 246.82px;
+}
+.top-\[2462\.66px\] {
+  top: 2462.66px;
+}
+.top-\[2487\.02px\] {
+  top: 2487.02px;
+}
+.top-\[2645px\] {
+  top: 2645px;
+}
+.top-\[2646px\] {
+  top: 2646px;
+}
+.top-\[2682\.05px\] {
+  top: 2682.05px;
+}
+.top-\[2682\.56px\] {
+  top: 2682.56px;
+}
+.top-\[2686\.94px\] {
+  top: 2686.94px;
+}
+.top-\[26px\] {
+  top: 26px;
+}
+.top-\[271px\] {
+  top: 271px;
+}
+.top-\[2777\.01px\] {
+  top: 2777.01px;
+}
+.top-\[2832\.85px\] {
+  top: 2832.85px;
+}
+.top-\[315px\] {
+  top: 315px;
+}
+.top-\[323px\] {
+  top: 323px;
+}
+.top-\[33px\] {
+  top: 33px;
+}
+.top-\[340px\] {
+  top: 340px;
+}
+.top-\[36px\] {
+  top: 36px;
+}
+.top-\[372px\] {
+  top: 372px;
+}
+.top-\[379px\] {
+  top: 379px;
+}
+.top-\[395px\] {
+  top: 395px;
+}
+.top-\[407px\] {
+  top: 407px;
+}
+.top-\[411px\] {
+  top: 411px;
+}
+.top-\[448px\] {
+  top: 448px;
+}
+.top-\[45px\] {
+  top: 45px;
+}
+.top-\[466px\] {
+  top: 466px;
+}
+.top-\[509px\] {
+  top: 509px;
+}
+.top-\[52px\] {
+  top: 52px;
+}
+.top-\[54px\] {
+  top: 54px;
+}
+.top-\[560\.26px\] {
+  top: 560.26px;
+}
+.top-\[574px\] {
+  top: 574px;
+}
+.top-\[584\.15px\] {
+  top: 584.15px;
+}
+.top-\[615px\] {
+  top: 615px;
+}
+.top-\[643\.33px\] {
+  top: 643.33px;
+}
+.top-\[658px\] {
+  top: 658px;
+}
+.top-\[692\.08px\] {
+  top: 692.08px;
+}
+.top-\[694px\] {
+  top: 694px;
+}
+.top-\[6px\] {
+  top: 6px;
+}
+.top-\[7\.21\%\] {
+  top: 7.21%;
+}
+.top-\[707\.53px\] {
+  top: 707.53px;
+}
+.top-\[72px\] {
+  top: 72px;
+}
+.top-\[748\.33px\] {
+  top: 748.33px;
+}
+.top-\[78\.67px\] {
+  top: 78.67px;
+}
+.top-\[7px\] {
+  top: 7px;
+}
+.top-\[830px\] {
+  top: 830px;
+}
+.top-\[85\.5px\] {
+  top: 85.5px;
+}
+.top-\[875\.19px\] {
+  top: 875.19px;
+}
+.top-\[9\.5px\] {
+  top: 9.5px;
+}
+.top-\[912\.71px\] {
+  top: 912.71px;
+}
+.top-\[96px\] {
+  top: 96px;
+}
+.top-\[98\.51px\] {
+  top: 98.51px;
+}
+.transition-all {
+  transition-property: all;
+  transition-duration: 0.15s;
+}
+.transition-colors {
+  transition-property:
+    color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 0.15s;
+}
+.underline {
+  text-decoration: underline;
+}
+.w-6 {
+  width: 24px;
+}
+.w-8 {
+  width: 32px;
+}
+.w-\[100\.5px\] {
+  width: 100.5px;
+}
+.w-\[1013px\] {
+  width: 1013px;
+}
+.w-\[101px\] {
+  width: 101px;
+}
+.w-\[102\.847px\] {
+  width: 102.847px;
+}
+.w-\[1108px\] {
+  width: 1108px;
+}
+.w-\[121\.402px\] {
+  width: 121.402px;
+}
+.w-\[123px\] {
+  width: 123px;
+}
+.w-\[135px\] {
+  width: 135px;
+}
+.w-\[156\.5px\] {
+  width: 156.5px;
+}
+.w-\[159\.927px\] {
+  width: 159.927px;
+}
+.w-\[18\.566px\] {
+  width: 18.566px;
+}
+.w-\[186px\] {
+  width: 186px;
+}
+.w-\[187px\] {
+  width: 187px;
+}
+.w-\[193\.5px\] {
+  width: 193.5px;
+}
+.w-\[193px\] {
+  width: 193px;
+}
+.w-\[20\.93px\] {
+  width: 20.93px;
+}
+.w-\[200px\] {
+  width: 200px;
+}
+.w-\[202\.595px\] {
+  width: 202.595px;
+}
+.w-\[208\.872px\] {
+  width: 208.872px;
+}
+.w-\[218\.307px\] {
+  width: 218.307px;
+}
+.w-\[22\.789px\] {
+  width: 22.789px;
+}
+.w-\[220\.605px\] {
+  width: 220.605px;
+}
+.w-\[221px\] {
+  width: 221px;
+}
+.w-\[222px\] {
+  width: 222px;
+}
+.w-\[225px\] {
+  width: 225px;
+}
+.w-\[226px\] {
+  width: 226px;
+}
+.w-\[23\.219px\] {
+  width: 23.219px;
+}
+.w-\[23\.636px\] {
+  width: 23.636px;
+}
+.w-\[234px\] {
+  width: 234px;
+}
+.w-\[24\.726px\] {
+  width: 24.726px;
+}
+.w-\[24\.931px\] {
+  width: 24.931px;
+}
+.w-\[242px\] {
+  width: 242px;
+}
+.w-\[246\.333px\] {
+  width: 246.333px;
+}
+.w-\[254\.944px\] {
+  width: 254.944px;
+}
+.w-\[256\.132px\] {
+  width: 256.132px;
+}
+.w-\[256px\] {
+  width: 256px;
+}
+.w-\[26\.109px\] {
+  width: 26.109px;
+}
+.w-\[26\.271px\] {
+  width: 26.271px;
+}
+.w-\[27\.426px\] {
+  width: 27.426px;
+}
+.w-\[27\.7px\] {
+  width: 27.7px;
+}
+.w-\[27\.968px\] {
+  width: 27.968px;
+}
+.w-\[271\.583px\] {
+  width: 271.583px;
+}
+.w-\[273px\] {
+  width: 273px;
+}
+.w-\[275px\] {
+  width: 275px;
+}
+.w-\[283\.91px\] {
+  width: 283.91px;
+}
+.w-\[284\.944px\] {
+  width: 284.944px;
+}
+.w-\[285\.507px\] {
+  width: 285.507px;
+}
+.w-\[29\.018px\] {
+  width: 29.018px;
+}
+.w-\[291\.244px\] {
+  width: 291.244px;
+}
+.w-\[30\.624px\] {
+  width: 30.624px;
+}
+.w-\[306\.278px\] {
+  width: 306.278px;
+}
+.w-\[309\.065px\] {
+  width: 309.065px;
+}
+.w-\[31\.043px\] {
+  width: 31.043px;
+}
+.w-\[31\.32px\] {
+  width: 31.32px;
+}
+.w-\[31\.687px\] {
+  width: 31.687px;
+}
+.w-\[310px\] {
+  width: 310px;
+}
+.w-\[313\.717px\] {
+  width: 313.717px;
+}
+.w-\[316px\] {
+  width: 316px;
+}
+.w-\[317\.5px\] {
+  width: 317.5px;
+}
+.w-\[318\.641px\] {
+  width: 318.641px;
+}
+.w-\[319\.406px\] {
+  width: 319.406px;
+}
+.w-\[320px\] {
+  width: 320px;
+}
+.w-\[33\.345px\] {
+  width: 33.345px;
+}
+.w-\[334px\] {
+  width: 334px;
+}
+.w-\[33px\] {
+  width: 33px;
+}
+.w-\[34\.328px\] {
+  width: 34.328px;
+}
+.w-\[366\.323px\] {
+  width: 366.323px;
+}
+.w-\[37\.327px\] {
+  width: 37.327px;
+}
+.w-\[38\.417px\] {
+  width: 38.417px;
+}
+.w-\[38\.985px\] {
+  width: 38.985px;
+}
+.w-\[39\.664px\] {
+  width: 39.664px;
+}
+.w-\[39\.719px\] {
+  width: 39.719px;
+}
+.w-\[392\.553px\] {
+  width: 392.553px;
+}
+.w-\[397\.963px\] {
+  width: 397.963px;
+}
+.w-\[40\.351px\] {
+  width: 40.351px;
+}
+.w-\[40\.793px\] {
+  width: 40.793px;
+}
+.w-\[400px\] {
+  width: 400px;
+}
+.w-\[402px\] {
+  width: 402px;
+}
+.w-\[403px\] {
+  width: 403px;
+}
+.w-\[41\.394px\] {
+  width: 41.394px;
+}
+.w-\[41\.553px\] {
+  width: 41.553px;
+}
+.w-\[417px\] {
+  width: 417px;
+}
+.w-\[42\.699px\] {
+  width: 42.699px;
+}
+.w-\[420\.085px\] {
+  width: 420.085px;
+}
+.w-\[423\.249px\] {
+  width: 423.249px;
+}
+.w-\[43\.781px\] {
+  width: 43.781px;
+}
+.w-\[45\.771px\] {
+  width: 45.771px;
+}
+.w-\[452px\] {
+  width: 452px;
+}
+.w-\[464\.28px\] {
+  width: 464.28px;
+}
+.w-\[475\.466px\] {
+  width: 475.466px;
+}
+.w-\[483\.026px\] {
+  width: 483.026px;
+}
+.w-\[49\.452px\] {
+  width: 49.452px;
+}
+.w-\[50\.788px\] {
+  width: 50.788px;
+}
+.w-\[55\.5px\] {
+  width: 55.5px;
+}
+.w-\[68\.39px\] {
+  width: 68.39px;
+}
+.w-\[75\.025px\] {
+  width: 75.025px;
+}
+.w-\[79\.121px\] {
+  width: 79.121px;
+}
+.w-\[80px\] {
+  width: 80px;
+}
+.w-\[86\.185px\] {
+  width: 86.185px;
+}
+.w-\[86\.955px\] {
+  width: 86.955px;
+}
+.w-\[93\.618px\] {
+  width: 93.618px;
+}
+.w-\[95\.624px\] {
+  width: 95.624px;
+}
+.w-\[972px\] {
+  width: 972px;
+}
+.w-full {
+  width: 100%;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-20 {
+  z-index: 20;
+}
+.z-30 {
+  z-index: 30;
+}
+
+select {
+  appearance: auto;
+}
+.group:hover .group-hover\:border-black {
+  border-color: #000;
+}
+.hover\:brightness-95:hover {
+  filter: brightness(0.95);
+}
+[data-name="デザインカンプ"] {
+  width: 402px !important;
+  height: 2776px !important;
+}
+.border {
+  border-width: 1px;
+  border-style: solid;
+}
+.border-b {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.border-t {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+/* =========================================================
+   CSS-first static implementation
+   - JavaScript is not used.
+   - Menu, quiz flow, diagnosis result, filtering, and accordions are CSS/HTML driven.
+   ========================================================= */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #e0e0e0;
+  color: #000;
+}
+.site-app {
+  width: 100%;
+  overflow-x: hidden;
+}
+.screen {
+  width: 402px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: #ffebcc;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.home-screen {
+  background: #e0e0e0;
+  border-left: 0;
+}
+.home-design-shell {
+  overflow: hidden;
+  background: #fff;
+}
+.page-anchor {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+.home-hotspot {
+  position: absolute;
+  z-index: 15;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.home-hotspot:hover {
+  background: rgba(243, 225, 102, 0.14);
+}
+.menu-open {
+  left: 340px;
+  top: 10px;
+  width: 53px;
+  height: 44px;
+}
+.hotspot-next {
+  left: 94px;
+  top: 1196px;
+  width: 123px;
+  height: 42px;
+  border-radius: 21px;
+}
+.hotspot-quiz {
+  left: 134px;
+  top: 1947px;
+  width: 135px;
+  height: 50px;
+  border-radius: 25px;
+}
+.hotspot-zukan {
+  left: 133px;
+  top: 2506px;
+  width: 135px;
+  height: 42px;
+  border-radius: 21px;
+}
+.quiz-input,
+.zukan-input,
+#filter-open {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.home-menu-backdrop {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.home-slide-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 30;
+  width: 180px;
+  min-height: 274px;
+  background: #f5f5f5;
+  border: 1px solid #000;
+  transform: translateX(105%);
+  transition: transform 0.25s ease;
+}
+.menu-close {
+  position: absolute;
+  right: 8px;
+  top: -2px;
+  font-size: 48px;
+  line-height: 1;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+}
+.home-menu-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 52px;
+}
+.home-menu-links a {
+  height: 55px;
+  background: #ffebcc;
+  border-top: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  line-height: 2.5;
+}
+.home-menu-links a:last-child {
+  border-bottom: 1px solid #000;
+}
+.home-menu-links a:hover {
+  filter: brightness(0.96);
+}
+#menu:target ~ .home-slide-menu {
+  transform: translateX(0);
+}
+#menu:target ~ .home-menu-backdrop {
+  display: block;
+}
+
+.css-page-header {
+  height: 128px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.css-home-link {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: #000;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.css-title-blob {
+  position: absolute;
+  left: 44px;
+  top: 18px;
+  width: 186px;
+  height: 95px;
+  background: #f3e166;
+  border: 1px solid #000;
+  border-radius: 52% 48% 50% 46%/45% 55% 40% 58%;
+  transform: rotate(-3deg);
+}
+.css-page-title {
+  position: absolute;
+  left: 35px;
+  top: 26px;
+  width: 205px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 1.55;
+}
+.css-filter-button {
+  position: absolute;
+  left: 273px;
+  top: 59px;
+  width: 89px;
+  height: 33px;
+  border: 1px solid #000;
+  border-radius: 53px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.css-filter-button:hover {
+  background: #f3e166;
+}
+.quiz-screen {
+  min-height: 870px;
+  background: #ffebcc;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+.quiz-stage {
+  position: relative;
+  min-height: 870px;
+}
+.quiz-decoration {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.quiz-decoration span {
+  position: absolute;
+  color: #f3e166;
+  font-size: 20px;
+  line-height: 1;
+  animation: floatmark 3.6s ease-in-out infinite;
+}
+.quiz-decoration span:nth-child(odd) {
+  font-size: 16px;
+}
+.quiz-decoration span:nth-child(3n) {
+  font-size: 24px;
+}
+@keyframes floatmark {
+  0%,
+  100% {
+    transform: translateY(0) rotate(var(--r, 0deg));
+  }
+  50% {
+    transform: translateY(-6px) rotate(calc(var(--r, 0deg) + 5deg));
+  }
+}
+.quiz-header-title {
+  position: absolute;
+  left: 23px;
+  top: 36px;
+  width: 222px;
+  height: 86px;
+  background: #f3e166;
+  border: 1px solid #000;
+  border-radius: 50% 45% 48% 52%/48% 55% 42% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.quiz-panel,
+.quiz-result {
+  display: none;
+  position: relative;
+  width: 402px;
+  height: 870px;
+}
+.quiz-form:not(:has(input[name="q1"]:checked)) .quiz-q1 {
+  display: block;
+}
+.quiz-form:has(input[name="q1"]:checked):not(:has(input[name="q2"]:checked))
+  .quiz-q2 {
+  display: block;
+}
+.quiz-form:has(input[name="q2"]:checked):not(:has(input[name="q3"]:checked))
+  .quiz-q3 {
+  display: block;
+}
+.quiz-form:has(input[name="q3"]:checked):not(:has(input[name="q4"]:checked))
+  .quiz-q4 {
+  display: block;
+}
+.quiz-form:has(input[name="q4"]:checked):not(:has(input[name="q5"]:checked))
+  .quiz-q5 {
+  display: block;
+}
+.quiz-form:has(input[name="q5"]:checked):not(:has(input[name="q6"]:checked))
+  .quiz-q6 {
+  display: block;
+}
+.quiz-card {
+  position: absolute;
+  left: 32px;
+  top: 155px;
+  width: 335px;
+  height: 525px;
+  background: #f5f5f5;
+  border: 1px solid #000;
+  border-radius: 9px;
+}
+.quiz-count {
+  position: absolute;
+  left: 269px;
+  top: 42px;
+  width: 105px;
+  height: 92px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 1.55;
+}
+.quiz-qnum {
+  position: absolute;
+  left: 6px;
+  top: 26px;
+  font-size: 32px;
+  line-height: 1.18;
+}
+.quiz-bubble {
+  position: absolute;
+  left: 34px;
+  top: 56px;
+  width: 268px;
+  height: 169px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 50% 48% 46% 52%/45% 53% 47% 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.55;
+  white-space: pre-line;
+}
+.quiz-choices {
+  position: absolute;
+  left: 0;
+  top: 290px;
+  width: 335px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.quiz-choice {
+  width: 140px;
+  min-height: 72px;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+.quiz-choice:hover,
+.quiz-unknown:hover {
+  background: #f3e166;
+}
+.quiz-unknown {
+  position: absolute;
+  left: 108px;
+  top: 390px;
+  width: 118px;
+  height: 39px;
+  border: 1px solid #000;
+  border-radius: 26px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.quiz-nav {
+  position: absolute;
+  top: 716px;
+  width: 136px;
+  height: 50px;
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+.quiz-nav.home {
+  left: 238px;
+}
+.quiz-nav.reset {
+  left: 17px;
+}
+.quiz-reset-btn {
+  font: inherit;
+  cursor: pointer;
+}
+.result-card {
+  position: absolute;
+  left: 17px;
+  top: 155px;
+  width: 365px;
+  height: 520px;
+  background: #f5f5f5;
+  border: 1px solid #000;
+  border-radius: 9px;
+}
+.result-lead {
+  position: absolute;
+  left: 23px;
+  top: 26px;
+  font-size: 24px;
+  line-height: 1.18;
+}
+.result-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 70px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.18;
+}
+.result-image-wrap {
+  position: absolute;
+  left: 47px;
+  top: 110px;
+  width: 272px;
+  height: 220px;
+}
+.result-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.feature-label {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 1px 8px;
+  white-space: nowrap;
+  font-size: 11px;
+}
+.feature-label.f1 {
+  left: -22px;
+  top: 55px;
+  transform: rotate(-6.15deg);
+  font-size: 13px;
+}
+.feature-label.f2 {
+  right: -28px;
+  top: 18px;
+  transform: rotate(7.97deg);
+  font-size: 10px;
+}
+.feature-label.f3 {
+  left: -4px;
+  top: 148px;
+  transform: rotate(-8.98deg);
+  font-size: 10px;
+}
+.feature-label.f4 {
+  right: -12px;
+  top: 108px;
+  transform: rotate(-5.61deg);
+}
+.result-desc {
+  position: absolute;
+  left: 35px;
+  top: 346px;
+  width: 295px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+.result-zukan-link {
+  position: absolute;
+  left: 105px;
+  top: 398px;
+  width: 155px;
+  height: 47px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #363636;
+  text-decoration: none;
+  font-size: 14px;
+}
+.result-note {
+  position: absolute;
+  left: 20px;
+  top: 460px;
+  width: 320px;
+  font-size: 10px;
+  line-height: 2.1;
+}
+.quiz-fallback {
+  position: absolute;
+  left: 32px;
+  top: 700px;
+  width: 338px;
+  font-size: 12px;
+  line-height: 1.6;
+  background: #fffbe6;
+  border: 1px solid #000;
+  padding: 10px;
+}
+.quiz-form:has(input[name="q6"]:checked) .quiz-fallback {
+  display: none;
+}
+.quiz-form:has(input[name="q6"]:checked) .quiz-panel {
+  display: none !important;
+}
+
+.zukan-screen {
+  background: #ffebcc;
+  border: 1px solid #000;
+  min-height: 100vh;
+}
+.filter-panel {
+  display: none;
+  background: #fffbe6;
+  border-bottom: 1px solid #000;
+  padding: 12px 14px;
+}
+.filter-grid {
+  display: grid;
+  gap: 10px;
+}
+.filter-group-title {
+  font-size: 12px;
+  margin: 0 0 6px;
+}
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.filter-options label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 999px;
+  min-height: 28px;
+  padding: 3px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.filter-options label:hover {
+  background: #f3e166;
+}
+#filter-open:checked ~ .filter-panel {
+  display: block;
+}
+.zukan-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  padding: 18px 18px 40px;
+}
+.guitar-card {
+  background: #f5f5f5;
+  border: 1px solid #000;
+  border-radius: 9px;
+  padding: 14px;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 12px;
+  align-items: start;
+}
+.guitar-thumb {
+  width: 120px;
+  height: 150px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.guitar-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.guitar-meta {
+  min-width: 0;
+}
+.guitar-brand {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #363636;
+}
+.guitar-name {
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 2px 0 8px;
+}
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+.tag {
+  background: #ffebcc;
+  border: 1px solid #000;
+  border-radius: 999px;
+  font-size: 10px;
+  padding: 2px 6px;
+  line-height: 1.3;
+}
+.guitar-desc {
+  grid-column: 1/-1;
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 0;
+}
+.guitar-detail {
+  grid-column: 1/-1;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+.guitar-detail summary {
+  cursor: pointer;
+  padding: 9px 0;
+  font-size: 13px;
+}
+.guitar-detail[open] summary {
+  border-bottom: 1px solid #ddd;
+}
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+  font-size: 12px;
+}
+.spec-table th,
+.spec-table td {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 6px 3px;
+  vertical-align: top;
+}
+.pickup-block {
+  border-top: 1px dashed #bbb;
+  padding: 8px 0;
+  font-size: 12px;
+  line-height: 1.65;
+}
+.color-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+.swatch {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+}
+.swatch i {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+.zukan-top-link {
+  display: block;
+  text-align: center;
+  margin: 0 18px 30px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 999px;
+  color: #000;
+  text-decoration: none;
+}
+.no-js-note {
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 10px 14px;
+  background: #fff;
+  border-bottom: 1px solid #000;
+}
+.zukan-input:checked ~ .filter-panel label {
+  transition: 0.15s;
+}
+
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1a:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1b:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2a:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2b:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3a:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3b:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4a:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-sg {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-semiac {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4b:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-lp {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6a:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5a:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6b:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5b:checked):has(#q6x:checked)
+  .result-tele {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6a:checked)
+  .result-jm {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6b:checked)
+  .result-strat {
+  display: block;
+}
+.quiz-form:has(#q1x:checked):has(#q2x:checked):has(#q3x:checked):has(
+    #q4x:checked
+  ):has(#q5x:checked):has(#q6x:checked)
+  .result-strat {
+  display: block;
+}
+#filter-type-all:checked ~ .filter-panel label[for="filter-type-all"] {
+  background: #f3e166;
+}
+#filter-type-strat:checked ~ .filter-panel label[for="filter-type-strat"] {
+  background: #f3e166;
+}
+#filter-type-strat:checked ~ .zukan-list .guitar-card:not(.filter-type-strat) {
+  display: none;
+}
+#filter-type-tele:checked ~ .filter-panel label[for="filter-type-tele"] {
+  background: #f3e166;
+}
+#filter-type-tele:checked ~ .zukan-list .guitar-card:not(.filter-type-tele) {
+  display: none;
+}
+#filter-type-lp:checked ~ .filter-panel label[for="filter-type-lp"] {
+  background: #f3e166;
+}
+#filter-type-lp:checked ~ .zukan-list .guitar-card:not(.filter-type-lp) {
+  display: none;
+}
+#filter-type-sg:checked ~ .filter-panel label[for="filter-type-sg"] {
+  background: #f3e166;
+}
+#filter-type-sg:checked ~ .zukan-list .guitar-card:not(.filter-type-sg) {
+  display: none;
+}
+#filter-type-jm:checked ~ .filter-panel label[for="filter-type-jm"] {
+  background: #f3e166;
+}
+#filter-type-jm:checked ~ .zukan-list .guitar-card:not(.filter-type-jm) {
+  display: none;
+}
+#filter-type-semiac:checked ~ .filter-panel label[for="filter-type-semiac"] {
+  background: #f3e166;
+}
+#filter-type-semiac:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-type-semiac) {
+  display: none;
+}
+#filter-color-all:checked ~ .filter-panel label[for="filter-color-all"] {
+  background: #f3e166;
+}
+#filter-color-sunburst:checked
+  ~ .filter-panel
+  label[for="filter-color-sunburst"] {
+  background: #f3e166;
+}
+#filter-color-sunburst:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-sunburst) {
+  display: none;
+}
+#filter-color-butterscotch:checked
+  ~ .filter-panel
+  label[for="filter-color-butterscotch"] {
+  background: #f3e166;
+}
+#filter-color-butterscotch:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-butterscotch) {
+  display: none;
+}
+#filter-color-cherryred:checked
+  ~ .filter-panel
+  label[for="filter-color-cherryred"] {
+  background: #f3e166;
+}
+#filter-color-cherryred:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-cherryred) {
+  display: none;
+}
+#filter-color-cherry:checked ~ .filter-panel label[for="filter-color-cherry"] {
+  background: #f3e166;
+}
+#filter-color-cherry:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-cherry) {
+  display: none;
+}
+#filter-color-black:checked ~ .filter-panel label[for="filter-color-black"] {
+  background: #f3e166;
+}
+#filter-color-black:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-black) {
+  display: none;
+}
+#filter-color-natural:checked
+  ~ .filter-panel
+  label[for="filter-color-natural"] {
+  background: #f3e166;
+}
+#filter-color-natural:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-natural) {
+  display: none;
+}
+#filter-color-red:checked ~ .filter-panel label[for="filter-color-red"] {
+  background: #f3e166;
+}
+#filter-color-red:checked ~ .zukan-list .guitar-card:not(.filter-color-red) {
+  display: none;
+}
+#filter-color-tvyellow:checked
+  ~ .filter-panel
+  label[for="filter-color-tvyellow"] {
+  background: #f3e166;
+}
+#filter-color-tvyellow:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-tvyellow) {
+  display: none;
+}
+#filter-color-blue:checked ~ .filter-panel label[for="filter-color-blue"] {
+  background: #f3e166;
+}
+#filter-color-blue:checked ~ .zukan-list .guitar-card:not(.filter-color-blue) {
+  display: none;
+}
+#filter-color-white:checked ~ .filter-panel label[for="filter-color-white"] {
+  background: #f3e166;
+}
+#filter-color-white:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-color-white) {
+  display: none;
+}
+#filter-pickup-all:checked ~ .filter-panel label[for="filter-pickup-all"] {
+  background: #f3e166;
+}
+#filter-pickup-single:checked
+  ~ .filter-panel
+  label[for="filter-pickup-single"] {
+  background: #f3e166;
+}
+#filter-pickup-single:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-pickup-single) {
+  display: none;
+}
+#filter-pickup-hum:checked ~ .filter-panel label[for="filter-pickup-hum"] {
+  background: #f3e166;
+}
+#filter-pickup-hum:checked ~ .zukan-list .guitar-card:not(.filter-pickup-hum) {
+  display: none;
+}
+#filter-pickup-p90:checked ~ .filter-panel label[for="filter-pickup-p90"] {
+  background: #f3e166;
+}
+#filter-pickup-p90:checked ~ .zukan-list .guitar-card:not(.filter-pickup-p90) {
+  display: none;
+}
+#filter-price-all:checked ~ .filter-panel label[for="filter-price-all"] {
+  background: #f3e166;
+}
+#filter-price-p0:checked ~ .filter-panel label[for="filter-price-p0"] {
+  background: #f3e166;
+}
+#filter-price-p0:checked ~ .zukan-list .guitar-card:not(.filter-price-p0) {
+  display: none;
+}
+#filter-price-p3_10:checked ~ .filter-panel label[for="filter-price-p3_10"] {
+  background: #f3e166;
+}
+#filter-price-p3_10:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-price-p3_10) {
+  display: none;
+}
+#filter-price-p5_10:checked ~ .filter-panel label[for="filter-price-p5_10"] {
+  background: #f3e166;
+}
+#filter-price-p5_10:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-price-p5_10) {
+  display: none;
+}
+#filter-price-p10_20:checked ~ .filter-panel label[for="filter-price-p10_20"] {
+  background: #f3e166;
+}
+#filter-price-p10_20:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-price-p10_20) {
+  display: none;
+}
+#filter-price-p20_30:checked ~ .filter-panel label[for="filter-price-p20_30"] {
+  background: #f3e166;
+}
+#filter-price-p20_30:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-price-p20_30) {
+  display: none;
+}
+#filter-price-p30:checked ~ .filter-panel label[for="filter-price-p30"] {
+  background: #f3e166;
+}
+#filter-price-p30:checked ~ .zukan-list .guitar-card:not(.filter-price-p30) {
+  display: none;
+}
+#filter-weight-all:checked ~ .filter-panel label[for="filter-weight-all"] {
+  background: #f3e166;
+}
+#filter-weight-light:checked ~ .filter-panel label[for="filter-weight-light"] {
+  background: #f3e166;
+}
+#filter-weight-light:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-weight-light) {
+  display: none;
+}
+#filter-weight-standard:checked
+  ~ .filter-panel
+  label[for="filter-weight-standard"] {
+  background: #f3e166;
+}
+#filter-weight-standard:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-weight-standard) {
+  display: none;
+}
+#filter-weight-heavy:checked ~ .filter-panel label[for="filter-weight-heavy"] {
+  background: #f3e166;
+}
+#filter-weight-heavy:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-weight-heavy) {
+  display: none;
+}
+#filter-brand-all:checked ~ .filter-panel label[for="filter-brand-all"] {
+  background: #f3e166;
+}
+#filter-brand-fender:checked ~ .filter-panel label[for="filter-brand-fender"] {
+  background: #f3e166;
+}
+#filter-brand-fender:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-brand-fender) {
+  display: none;
+}
+#filter-brand-gibson:checked ~ .filter-panel label[for="filter-brand-gibson"] {
+  background: #f3e166;
+}
+#filter-brand-gibson:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-brand-gibson) {
+  display: none;
+}
+#filter-brand-squier:checked ~ .filter-panel label[for="filter-brand-squier"] {
+  background: #f3e166;
+}
+#filter-brand-squier:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-brand-squier) {
+  display: none;
+}
+#filter-brand-epiphone:checked
+  ~ .filter-panel
+  label[for="filter-brand-epiphone"] {
+  background: #f3e166;
+}
+#filter-brand-epiphone:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-brand-epiphone) {
+  display: none;
+}
+#filter-brand-yamaha:checked ~ .filter-panel label[for="filter-brand-yamaha"] {
+  background: #f3e166;
+}
+#filter-brand-yamaha:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-brand-yamaha) {
+  display: none;
+}
+#filter-brand-bacchus:checked
+  ~ .filter-panel
+  label[for="filter-brand-bacchus"] {
+  background: #f3e166;
+}
+#filter-brand-bacchus:checked
+  ~ .zukan-list
+  .guitar-card:not(.filter-brand-bacchus) {
+  display: none;
+}
+#filter-brand-prs:checked ~ .filter-panel label[for="filter-brand-prs"] {
+  background: #f3e166;
+}
+#filter-brand-prs:checked ~ .zukan-list .guitar-card:not(.filter-brand-prs) {
+  display: none;
+}
+
+/* 3ページ分割後のホームメニュー制御（HTML/CSSのみ） */
+#menu-toggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+#menu-toggle:checked ~ .home-menu-backdrop {
+  display: block;
+}
+#menu-toggle:checked ~ .home-slide-menu {
+  transform: translateX(0);
+}
+/* Nesting-safe control: works even when menu elements are wrapped */
+.home-screen:has(#menu-toggle:checked) .home-menu-backdrop {
+  display: block;
+}
+.home-screen:has(#menu-toggle:checked) .home-slide-menu {
+  transform: translateX(0);
+}
+
+/* Home header hamburger menu (slide-in drawer) */
+.home-slide-menu {
+  width: 260px;
+  max-width: 86%;
+  height: 100%;
+  min-height: 100%;
+  background: #fff;
+  border-left: 1px solid #000;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  box-shadow: -10px 0 0 rgba(0, 0, 0, 0);
+  transform: translateX(110%);
+  transition: transform 0.22s ease;
+}
+
+.home-menu-backdrop {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.menu-close {
+  right: 10px;
+  top: 6px;
+  font-size: 44px;
+  line-height: 1;
+}
+
+.home-menu-links {
+  margin-top: 64px;
+}
+
+.home-menu-links a {
+  background: #ffebcc;
+  height: 62px;
+  font-size: 15px;
+  border-top: 1px solid #000;
+}
+
+.home-menu-links a:last-child {
+  border-bottom: 1px solid #000;
+}
+
+/* Ensure the hamburger hit area is always clickable */
+.menu-open {
+  z-index: 40;
+}
+
+/* =========================================================
+   Guitar zukan (ギター図鑑)
+   - 画像のように 2列タイルグリッド
+   - ギタークリックでモーダル表示（details をオーバーレイ化）
+   ========================================================= */
+.css-page-header {
+  background: #ffebcc;
+}
+.zukan-decoration {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.zukan-decoration span {
+  position: absolute;
+  color: #f3e166;
+  font-size: 22px;
+  line-height: 1;
+  transform: rotate(var(--r, 0deg));
+}
+.no-js-note {
+  display: none;
+}
+
+/* タイル配置（画像の白い角丸コンテナ） */
+.zukan-list {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  padding: 18px 16px 28px;
+  margin: 0 18px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 22px;
+}
+
+/* ギターカード（タイル） */
+.guitar-card {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.guitar-meta {
+  order: 0;
+  width: 100%;
+  text-align: center;
+}
+.guitar-thumb {
+  order: 1;
+  width: 105px;
+  height: 105px;
+  border-radius: 18px;
+  background: #e7e7e7;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+.guitar-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #e7e7e7;
+}
+.guitar-brand {
+  display: none;
+}
+.tag-list {
+  display: none;
+}
+.guitar-desc {
+  display: none;
+}
+.guitar-name {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* details を閉じた状態では「詳しく見る」ボタンを隠す */
+details.guitar-detail {
+  width: 100%;
+}
+details.guitar-detail > summary {
+  display: none;
+}
+
+/* モーダルとして開く */
+details.guitar-detail[open] {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  background: rgba(0, 0, 0, 0.32);
+  overflow: auto;
+  padding: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+details.guitar-detail[open] > summary {
+  display: none;
+}
+details.guitar-detail[open] .guitar-modal-head,
+details.guitar-detail[open] .spec-table,
+details.guitar-detail[open] .color-swatches,
+details.guitar-detail[open] .pickup-block,
+details.guitar-detail[open] .guitar-modal-desc,
+.guitar-modal-back {
+  width: min(380px, calc(100vw - 30px));
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+/* モーダルヘッダー（画像＋黄色帯） */
+.guitar-modal-head {
+  position: relative;
+  margin-top: 0;
+  border-top: 1px solid #000;
+  border-radius: 18px 18px 0 0;
+  overflow: hidden;
+  background: #fff;
+}
+.guitar-modal-close {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #000;
+  border-radius: 999px;
+  background: #fff;
+  color: #000;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+.guitar-modal-hero {
+  height: 300px;
+  background: #fff;
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+.guitar-modal-hero img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.guitar-modal-band {
+  background: #f3de4f;
+  border-bottom: 1px solid #000;
+  padding: 11px 16px 13px;
+}
+.guitar-modal-type {
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+.guitar-modal-name {
+  font-size: 19px;
+  margin: 0;
+  line-height: 1.4;
+}
+.guitar-modal-note {
+  margin: 0;
+  padding: 10px 16px;
+  color: #9a9a9a;
+  font-size: 12px;
+  background: #fff;
+}
+
+/* モーダル内の内容 */
+details.guitar-detail[open] .spec-table {
+  display: none;
+  border-collapse: separate;
+  margin: 0;
+  padding: 4px 16px 8px;
+  background: #fff;
+}
+details.guitar-detail[open] .spec-table tbody {
+  display: block;
+}
+details.guitar-detail[open] .spec-table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d0d0d0;
+  padding: 10px 2px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+details.guitar-detail[open] .spec-table tr::after {
+  content: "▼";
+  font-size: 12px;
+  color: #8a8a8a;
+}
+details.guitar-detail[open] .spec-table th {
+  font-weight: 400;
+  color: #777;
+}
+details.guitar-detail[open] .spec-table th,
+details.guitar-detail[open] .spec-table td {
+  border: 0;
+  padding: 0;
+}
+details.guitar-detail[open] .spec-table td {
+  font-weight: 500;
+}
+details.guitar-detail[open] .color-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px 14px 10px;
+}
+details.guitar-detail[open] .pickup-block {
+  margin: 0;
+  padding: 10px 14px;
+  border-top: 1px solid #d0d0d0;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.guitar-modal-desc {
+  margin: 0 auto 12px;
+  padding: 14px 16px 16px;
+  font-size: 14px;
+  line-height: 1.9;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #000;
+  background: #fff;
+}
+.guitar-modal-sections {
+  width: min(380px, calc(100vw - 30px));
+  margin: 0 0;
+  background: transparent;
+  border: 1px solid #000;
+  padding: 0;
+}
+.guitar-modal-acc {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  padding: 14px 16px 16px;
+  overflow: hidden;
+}
+.guitar-modal-acc-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  margin: 0;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 1.3;
+}
+.guitar-modal-acc-summary::-webkit-details-marker {
+  display: none;
+}
+.guitar-modal-acc-summary::after {
+  content: "▼";
+  font-size: 12px;
+  color: #8a8a8a;
+  transition: transform 0.15s ease;
+}
+.guitar-modal-acc[open] .guitar-modal-acc-summary::after {
+  transform: rotate(180deg);
+}
+.guitar-modal-acc-body {
+  padding: 10px 14px 12px;
+  background: #fff;
+}
+.guitar-modal-acc-text {
+  margin: 0;
+  color: #444;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.guitar-modal-back {
+  display: block;
+  margin: 0 auto 6px;
+  padding: 11px 16px;
+  border: 1px solid #000;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+@media (max-width: 420px) {
+  .guitar-modal-hero {
+    height: 270px;
+  }
+  .guitar-modal-name {
+    font-size: 18px;
+  }
+  details.guitar-detail[open] .spec-table tr {
+    font-size: 15px;
+  }
+  .guitar-modal-acc-summary {
+    font-size: 12px;
+  }
+  .guitar-modal-acc-text {
+    font-size: 12px;
+  }
+}
